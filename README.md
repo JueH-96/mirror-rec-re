@@ -1,45 +1,10 @@
-# MIRROR-Rec — Reproducibility Package (anonymous, WWW 2027 submission)
+# MIRROR-Rec — Reproducibility Package
 
 Everything in this package is derived from the project repository with git
 history stripped and identity strings removed. `MANIFEST.sha256` (shipped
 next to the archive) lists every file.
 
 ---
-
-## 0. Start here: verify every paper number WITHOUT rerunning anything
-
-The property worth checking first is one most packages cannot offer: **no
-number in the paper is hand-typed.** Every table cell, figure, and prose
-statistic lives inside `% BEGIN AUTOGEN: <name> ... % END AUTOGEN: <name>`
-marker blocks in `paper/www2027/main.tex` and is written there by
-`paper/scripts/gen_paper_assets.py` from the archived statistics files in
-`results/`. So you can audit paper–evidence fidelity in minutes, on a CPU,
-before deciding whether to repeat any experiment:
-
-```bash
-# minimal environment (full env of §2 works too; GPU not needed here)
-pip install pandas numpy matplotlib scipy pyyaml pyarrow pytest openai
-
-sha256sum paper/www2027/main.tex          # record the shipped hash
-python paper/scripts/gen_paper_assets.py  # regenerate ALL tables/macros/figures
-                                          #   from results/*.json|csv|parquet;
-                                          #   ends with spot-check assertions
-sha256sum paper/www2027/main.tex          # UNCHANGED hash =>
-    # all 8 AUTOGEN blocks (7 tables + 81 prose-statistic macros) regenerate
-    # byte-identically from the archived results shipped in this package
-pytest tests/                             # pipeline unit tests
-```
-
-Notes:
-- The generator also rewrites `paper/www2027/figures/*.pdf|png`; PDF bytes
-  can differ via embedded timestamps, so the byte-identity claim is scoped to
-  `main.tex`. Work on a copy if you want to preserve the shipped figures.
-- `paper/www2027/main.tex` compiles with
-  `pdflatex main && bibtex main && pdflatex main && pdflatex main`.
-- All raw LLM interactions behind those statistics are archived in
-  `results/model_runs.jsonl` (per-call model/prompt version, seed,
-  temperature, raw response, parse status, tokens, latency) and
-  `results/**/raw/` (parsed rankings per request id).
 
 ## 1. Package layout
 
