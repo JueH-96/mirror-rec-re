@@ -1,0 +1,8 @@
+{
+  "data_version": "pilot-v1",
+  "seed": 42,
+  "n_sets": 200,
+  "b_fallback_to_synthetic": 15,
+  "real_catalog_used": true,
+  "sha256": "d56c45243c54022ea01588aa637bdbd094684f56c26df6e1fbf204996edf3481"
+}

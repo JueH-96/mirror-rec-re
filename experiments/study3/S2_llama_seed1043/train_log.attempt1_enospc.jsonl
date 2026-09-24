@@ -1,0 +1,10 @@
+{"step": 25, "elapsed_s": 79.4, "rec": 0.01036}
+{"step": 50, "elapsed_s": 165.4, "rec": 0.00297}
+{"step": 75, "elapsed_s": 251.9, "rec": 0.00066}
+{"step": 100, "elapsed_s": 337.8, "rec": 0.00426}
+{"step": 125, "elapsed_s": 424.0, "rec": 0.00371}
+{"step": 150, "elapsed_s": 510.3, "rec": 0.00203}
+{"step": 175, "elapsed_s": 596.6, "rec": 0.00392}
+{"step": 200, "elapsed_s": 683.0, "rec": 0.00099}
+{"step": 225, "elapsed_s": 769.5, "rec": 8e-05}
+{"step": 250, "elapsed_s": 855.7, "rec": 0.00218}

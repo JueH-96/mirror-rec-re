@@ -1,0 +1,73 @@
+{
+ "_note": "exploratory minval (order_aug screening); not evidence",
+ "runs": {
+  "S7perm_llama_seed1042": {
+   "n_requests": 800,
+   "n_requests_item_mismatch_skipped": 0,
+   "n_items": 4000,
+   "mean_item_std_raw": 3.4852722166651606,
+   "mean_item_std_centered": 2.3635970220786446,
+   "common_mode_share": 0.5400893571614552,
+   "median_item_std_centered": 2.0282819216765766,
+   "p90_item_std_centered": 4.280105500707103,
+   "mean_within_set_spread": 17.81874263497849,
+   "noise_ratio_centered": 0.13264667830371285,
+   "margin_exceed_frac_centered": 0.546,
+   "focal_margin_std": 4.079783349661138,
+   "focal_margin_mean_abs": 22.553964263499974,
+   "focal_margin_noise_ratio": 0.18088985608014033,
+   "focal_sign_flip_rate": 0.0525,
+   "increment_mean": 2.5406487053333313,
+   "increment_noise_std": 0.4580871824331663,
+   "increment_noise_over_mean": 0.18030323573327925,
+   "increment_violation_rate": 0.006333333333333333,
+   "aggregated_k5_violation_rate": 0.0016666666666666668,
+   "position_mean_delta": {
+    "0": 1.1310350739499977,
+    "1": 0.1655849546999998,
+    "2": -0.3802603515499996,
+    "3": -0.47174548710000114,
+    "4": -0.44461418999999974
+   },
+   "position_r2": 0.04843320910537517,
+   "test_main_dvr": 0.0
+  },
+  "S8perm_llama_seed1042": {
+   "n_requests": 800,
+   "n_requests_item_mismatch_skipped": 0,
+   "n_items": 4000,
+   "mean_item_std_raw": 3.4084847195773063,
+   "mean_item_std_centered": 2.174039726744978,
+   "common_mode_share": 0.5931706762040947,
+   "median_item_std_centered": 1.7317722386330163,
+   "p90_item_std_centered": 3.7938483624052552,
+   "mean_within_set_spread": 13.139477527590032,
+   "noise_ratio_centered": 0.1654586129608251,
+   "margin_exceed_frac_centered": 0.53,
+   "focal_margin_std": 3.232221367550414,
+   "focal_margin_mean_abs": 15.478418643500007,
+   "focal_margin_noise_ratio": 0.20882116203180423,
+   "focal_sign_flip_rate": 0.07875,
+   "increment_mean": 0.7776193833333332,
+   "increment_noise_std": 0.14689858813629517,
+   "increment_noise_over_mean": 0.18890808444949192,
+   "increment_violation_rate": 0.012,
+   "aggregated_k5_violation_rate": 0.005,
+   "position_mean_delta": {
+    "0": -0.24083518185000016,
+    "1": 0.10548904829999992,
+    "2": -0.03849963064999994,
+    "3": 0.0468767959999998,
+    "4": 0.12696896819999998
+   },
+   "position_r2": 0.002290841152734347,
+   "test_main_dvr": 0.0
+  }
+ },
+ "screening": {
+  "S7perm_improvement_pp": 18.96666666666667,
+  "S8perm_improvement_pp": 23.966666666666665,
+  "S7perm_recommend_stageB": true,
+  "S8perm_recommend_stageB": true
+ }
+}

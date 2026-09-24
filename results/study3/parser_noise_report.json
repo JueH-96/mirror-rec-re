@@ -1,0 +1,153 @@
+{
+ "split": "test_main",
+ "rates_percent": [
+  0,
+  5,
+  10,
+  20
+ ],
+ "corruption_model": "per-request; 50% strength off-by-one (\u00b11 clamped), 50% attribute confusion (uniform over other 3); tables shared across systems (seed 20260731+rate)",
+ "corruptions": {
+  "5": {
+   "n_requests": 146,
+   "level": 69,
+   "attr": 77
+  },
+  "10": {
+   "n_requests": 303,
+   "level": 154,
+   "attr": 149
+  },
+  "20": {
+   "n_requests": 576,
+   "level": 297,
+   "attr": 279
+  }
+ },
+ "systems": {
+  "S1_llama": {
+   "mechanism": "parse-dependent chain assembly + PAVA",
+   "by_rate": {
+    "0": {
+     "DVR": 0.0,
+     "RR": 0.3252
+    },
+    "5": {
+     "DVR": 0.0374,
+     "RR": 0.329
+    },
+    "10": {
+     "DVR": 0.0738,
+     "RR": 0.3376
+    },
+    "20": {
+     "DVR": 0.1183,
+     "RR": 0.3429
+    }
+   }
+  },
+  "S8_llama": {
+   "mechanism": "g_a(l) conditions on parsed (attribute, level)",
+   "by_rate": {
+    "0": {
+     "per_seed": {
+      "1042": {
+       "DVR": 0.0,
+       "RR": 1.0
+      },
+      "1043": {
+       "DVR": 0.0,
+       "RR": 1.0
+      },
+      "1044": {
+       "DVR": 0.0,
+       "RR": 1.0
+      }
+     },
+     "DVR_mean": 0.0,
+     "RR_mean": 1.0
+    },
+    "5": {
+     "per_seed": {
+      "1042": {
+       "DVR": 0.0101,
+       "RR": 0.9829
+      },
+      "1043": {
+       "DVR": 0.0061,
+       "RR": 0.9842
+      },
+      "1044": {
+       "DVR": 0.011,
+       "RR": 0.9811
+      }
+     },
+     "DVR_mean": 0.0091,
+     "RR_mean": 0.9827
+    },
+    "10": {
+     "per_seed": {
+      "1042": {
+       "DVR": 0.0211,
+       "RR": 0.9623
+      },
+      "1043": {
+       "DVR": 0.0189,
+       "RR": 0.964
+      },
+      "1044": {
+       "DVR": 0.0189,
+       "RR": 0.964
+      }
+     },
+     "DVR_mean": 0.0196,
+     "RR_mean": 0.9634
+    },
+    "20": {
+     "per_seed": {
+      "1042": {
+       "DVR": 0.0447,
+       "RR": 0.9316
+      },
+      "1043": {
+       "DVR": 0.0285,
+       "RR": 0.943
+      },
+      "1044": {
+       "DVR": 0.0439,
+       "RR": 0.9298
+      }
+     },
+     "DVR_mean": 0.039,
+     "RR_mean": 0.9348
+    }
+   }
+  },
+  "S7_llama": {
+   "mechanism": "base mode: no parsed inputs consumed; end-to-end text",
+   "structural_identity": "outputs are byte-identical under parser noise (the corrupted representation is never an input); rate-0 values apply at all rates, NOT re-run",
+   "all_rates": {
+    "per_seed": {
+     "1042": {
+      "DVR": 0.0,
+      "RR": 1.0
+     },
+     "1043": {
+      "DVR": 0.0,
+      "RR": 1.0
+     },
+     "1044": {
+      "DVR": 0.0,
+      "RR": 1.0
+     }
+    },
+    "DVR_mean": 0.0,
+    "RR_mean": 1.0
+   }
+  },
+  "S0_llama_reference": {
+   "DVR": 0.2035,
+   "RR": 0.3534
+  }
+ }
+}

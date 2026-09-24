@@ -1,0 +1,11 @@
+ckpt_every: 250
+grad_accum: 2
+l_rec: 1.0
+lora_r: 16
+lr: 0.0001
+max_steps: 3000
+mode: base
+model_name: Qwen/Qwen2.5-14B-Instruct
+run_name: S2_qwen_seed1042
+seed: 1042
+system: S2

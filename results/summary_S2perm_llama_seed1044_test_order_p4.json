@@ -1,0 +1,13 @@
+{
+  "model": "S2perm_llama_seed1044",
+  "variant": "test_order_p4",
+  "n_chains_evaluated": 200,
+  "n_chains_dropped_parse": 0,
+  "DVR": 0.17333333333333334,
+  "SRR": 0.0,
+  "RR": 0.7533333333333333,
+  "rank_DVR": 0.02,
+  "rank_SRR": 0.0,
+  "chain_fully_consistent_rate": 0.655,
+  "pairwise_flip_rate": 0.016333333333333335
+}

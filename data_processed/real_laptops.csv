@@ -1,0 +1,1304 @@
+price,weight,storage,battery_life,cpu,ram
+857.0,1.37,128.0,,Intel Core i5 2.3GHz,8
+575.0,1.34,128.0,,Intel Core i5 1.8GHz,8
+368.0,1.86,256.0,,Intel Core i5 7200U 2.5GHz,8
+1622.0,1.83,512.0,,Intel Core i7 2.7GHz,16
+1153.0,1.37,256.0,,Intel Core i5 3.1GHz,8
+256.0,2.1,500.0,,AMD A9-Series 9420 3GHz,4
+1368.0,2.04,256.0,,Intel Core i7 2.2GHz,16
+741.0,1.34,256.0,,Intel Core i5 1.8GHz,8
+956.0,1.3,512.0,,Intel Core i7 8550U 1.8GHz,16
+492.0,1.6,256.0,,Intel Core i5 8250U 1.6GHz,8
+252.0,1.86,500.0,,Intel Core i5 7200U 2.5GHz,4
+221.0,1.86,500.0,,Intel Core i3 6006U 2GHz,4
+1560.0,1.83,256.0,,Intel Core i7 2.8GHz,16
+319.0,2.2,256.0,,Intel Core i3 6006U 2GHz,4
+807.0,0.92,256.0,,Intel Core M m3 1.2GHz,8
+971.0,1.37,256.0,,Intel Core i5 2.3GHz,8
+476.0,2.2,256.0,,Intel Core i7 7500U 2.7GHz,8
+1827.0,1.83,512.0,,Intel Core i7 2.9GHz,16
+319.0,2.2,1024.0,,Intel Core i3 7100U 2.4GHz,8
+626.0,1.22,128.0,,Intel Core i5 8250U 1.6GHz,8
+123.0,0.98,32.0,,Intel Atom x5-Z8350 1.44GHz,2
+639.0,2.5,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+165.0,1.86,500.0,,AMD E-Series E2-9000e 1.5GHz,4
+524.0,1.62,256.0,,Intel Core i5 8250U 1.6GHz,8
+421.0,1.91,256.0,,Intel Core i7 8550U 1.8GHz,8
+268.0,2.3,1024.0,,Intel Core i3 6006U 2GHz,4
+703.0,1.35,128.0,,Intel Core i5 1.6GHz,8
+511.0,2.2,256.0,,Intel Core i5 8250U 1.6GHz,8
+830.0,1.88,512.0,,Intel Core i7 8650U 1.9GHz,8
+573.0,2.5,1024.0,,Intel Core i5 8250U 1.6GHz,8
+157.0,1.89,64.0,,Intel Atom x5-Z8300 1.44GHz,4
+127.0,1.65,32.0,,AMD E-Series E2-6110 1.5GHz,2
+281.0,2.71,500.0,,AMD A6-Series 9220 2.5GHz,4
+1195.0,1.2,512.0,,Intel Core i7 8550U 1.8GHz,16
+638.0,1.35,256.0,,Intel Core i5 1.6GHz,8
+159.0,1.44,64.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+235.0,2.1,1024.0,,Intel Core i3 7130U 2.7GHz,4
+626.0,2.8,1152.0,,Intel Core i5 8250U 1.6GHz,8
+312.0,1.86,1024.0,,Intel Core i5 7200U 2.5GHz,4
+562.0,2.1,256.0,,Intel Core i5 8250U 1.6GHz,8
+249.0,2.0,1024.0,,Intel Core i3 6006U 2GHz,4
+958.0,2.65,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+334.0,2.3,1024.0,,Intel Core i5 7200U 2.5GHz,8
+436.0,2.2,256.0,,Intel Core i5 8250U 1.6GHz,4
+639.0,2.77,1024.0,,Intel Core i5 8250U 1.6GHz,12
+907.0,1.37,256.0,,Intel Core i5 2.0GHz,8
+236.0,2.2,128.0,,Intel Core i3 6006U 2GHz,4
+831.0,3.2,1280.0,,AMD Ryzen 1700 3GHz,8
+409.0,2.3,256.0,,Intel Core i5 7200U 2.5GHz,4
+298.0,2.8,1024.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+204.0,0.69,64.0,,Intel Atom x5-Z8550 1.44GHz,4
+538.0,2.2,256.0,,Intel Core i7 8550U 1.8GHz,8
+255.0,1.86,256.0,,AMD A6-Series 9220 2.5GHz,4
+705.0,1.49,512.0,,Intel Core i7 8550U 1.8GHz,8
+246.0,2.4,1024.0,,Intel Core i3 7100U 2.4GHz,4
+491.0,2.13,256.0,,Intel Core i7 8550U 1.8GHz,8
+281.0,1.91,128.0,,Intel Core i3 6006U 2GHz,4
+375.0,2.0,256.0,,Intel Core i5 7200U 2.5GHz,4
+1566.0,2.43,2304.0,,Intel Core i7 7700HQ 2.8GHz,16
+265.0,2.0,256.0,,Intel Core i3 6006U 2GHz,4
+831.0,2.8,2304.0,,Intel Core i7 8550U 1.8GHz,16
+562.0,1.7,256.0,,Intel Core i5 8250U 1.6GHz,8
+383.0,1.7,256.0,,Intel Core i3 7130U 2.7GHz,8
+602.0,1.4,256.0,,Intel Core i5 8250U 1.6GHz,8
+441.0,1.86,256.0,,Intel Core i5 7200U 2.5GHz,8
+1268.0,1.8,512.0,,Intel Core i7 7700HQ 2.8GHz,16
+280.0,1.86,500.0,,Intel Core i3 6006U 2GHz,4
+146.0,1.44,32.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+351.0,1.9,1024.0,,Intel Core i5 7200U 2.5GHz,4
+607.0,3.0,1024.0,,Intel Core i7 7700HQ 2.8GHz,12
+696.0,1.252,128.0,,Intel Core i5 7200U 2.5GHz,4
+611.0,1.4,256.0,,Intel Core i7 8550U 1.8GHz,8
+556.0,2.2,256.0,,Intel Core i7 8550U 1.8GHz,8
+700.0,2.7,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+249.0,2.1,1024.0,,Intel Core i3 6006U 2GHz,8
+607.0,2.2,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+332.0,2.2,2048.0,,Intel Core i5 7200U 2.5GHz,8
+547.0,2.02,1152.0,,Intel Core i7 8550U 1.8GHz,8
+339.0,2.2,1024.0,,Intel Core i3 7130U 2.7GHz,4
+625.0,2.5,1152.0,,Intel Core i5 8250U 1.6GHz,8
+701.0,1.88,256.0,,Intel Core i5 8250U 1.6GHz,8
+965.0,0.92,512.0,,Intel Core i5 1.3GHz,8
+550.0,1.63,256.0,,Intel Core i5 8250U 1.6GHz,8
+255.0,2.2,128.0,,AMD A6-Series 9220 2.5GHz,4
+253.0,2.1,1024.0,,AMD A9-Series 9420 3GHz,4
+862.0,2.65,1152.0,,Intel Core i7 7700HQ 2.8GHz,16
+447.0,1.83,256.0,,Intel Core i7 8550U 1.8GHz,8
+383.0,1.96,256.0,,Intel Core i5 7200U 2.5GHz,8
+926.0,2.2,1152.0,,Intel Core i7 7700HQ 2.8GHz,16
+1054.0,1.21,256.0,,Intel Core i7 8550U 1.8GHz,8
+447.0,2.45,1024.0,,AMD FX 9830P 3GHz,8
+441.0,2.2,1024.0,,Intel Core i7 8550U 1.8GHz,8
+765.0,1.49,512.0,,Intel Core i7 8550U 1.8GHz,16
+764.0,2.65,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+671.0,1.25,256.0,,Intel Core i7 7500U 2.7GHz,8
+542.0,1.5,256.0,,Intel Core i5 8250U 1.6GHz,8
+384.0,2.2,1024.0,,Intel Core i7 7500U 2.7GHz,8
+310.0,2.2,256.0,,Intel Core i3 6006U 2GHz,4
+369.0,2.0,256.0,,Intel Core i3 7100U 2.4GHz,6
+799.0,2.62,1152.0,,Intel Core i7 7700HQ 2.8GHz,12
+460.0,1.91,256.0,,Intel Core i7 7500U 2.7GHz,8
+223.0,2.1,500.0,,AMD E-Series E2-9000e 1.5GHz,4
+414.0,2.2,1024.0,,Intel Core i5 8250U 1.6GHz,8
+715.0,1.38,256.0,,Intel Core i7 7500U 2.7GHz,8
+857.0,1.252,256.0,,Intel Core i5 7200U 2.5GHz,8
+421.0,1.58,256.0,,Intel Core i5 7200U 2.5GHz,6
+265.0,1.85,1024.0,,Intel Core i3 6006U 2GHz,4
+763.0,1.3,256.0,,Intel Core i7 7500U 2.7GHz,8
+831.0,2.2,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+946.0,1.58,256.0,,Intel Core i7 7500U 2.7GHz,8
+807.0,1.5,1280.0,,Intel Core i7 8550U 1.8GHz,16
+882.0,1.23,256.0,,Intel Core i7 7560U 2.4GHz,8
+894.0,1.37,256.0,,Intel Core i5 7200U 2.5GHz,8
+462.0,1.63,500.0,,Intel Core i5 8250U 1.6GHz,4
+1042.0,1.21,256.0,,Intel Core i5 8250U 1.6GHz,8
+894.0,1.26,256.0,,Intel Core i5 8250U 1.6GHz,8
+693.0,1.63,512.0,,Intel Core i7 8550U 1.8GHz,8
+723.0,2.16,1280.0,,Intel Core i7 8550U 1.8GHz,8
+361.0,2.0,1024.0,,Intel Core i3 6006U 2GHz,4
+715.0,1.7,256.0,,Intel Core i7 8550U 1.8GHz,8
+306.0,2.1,1024.0,,Intel Core i3 7100U 2.4GHz,6
+1433.0,1.8,2304.0,,Intel Core i7 7700HQ 2.8GHz,16
+402.0,2.2,256.0,,Intel Core i5 7200U 2.5GHz,8
+813.0,2.5,512.0,,Intel Core i7 8550U 1.8GHz,16
+288.0,2.1,256.0,,AMD A9-Series 9420 3GHz,4
+166.0,1.86,500.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+519.0,1.63,1024.0,,Intel Core i5 8250U 1.6GHz,8
+178.0,1.65,64.0,,AMD E-Series 6110 1.5GHz,4
+893.0,2.8,2304.0,,Intel Core i7 8550U 1.8GHz,16
+593.0,2.5,256.0,,Intel Core i5 8250U 1.6GHz,8
+409.0,2.36,1024.0,,Intel Core i5 7200U 2.5GHz,8
+287.0,2.2,1024.0,,Intel Core i3 6006U 2GHz,4
+565.0,1.6,256.0,,Intel Core i7 8550U 1.8GHz,8
+366.0,2.2,256.0,,Intel Core i3 7130U 2.7GHz,4
+382.0,2.05,1024.0,,Intel Core i7 7500U 2.7GHz,8
+632.0,1.63,256.0,,Intel Core i7 8550U 1.8GHz,8
+161.0,1.9,1024.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+600.0,3.0,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+319.0,2.2,1024.0,,Intel Core i5 7200U 2.5GHz,4
+447.0,1.32,256.0,,Intel Core i5 7200U 2.5GHz,4
+419.0,3.0,1024.0,,Intel Core i3 7130U 2.7GHz,4
+714.0,1.75,256.0,,Intel Core i5 8250U 1.6GHz,8
+556.0,2.4,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+385.0,2.1,500.0,,Intel Core i5 6200U 2.3GHz,4
+236.0,1.86,256.0,,AMD A6-Series 9220 2.5GHz,4
+703.0,1.25,256.0,,Intel Core i7 8550U 1.8GHz,8
+1288.0,0.97,512.0,,Intel Core M 6Y75 1.2GHz,8
+220.0,2.0,1024.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+1297.0,2.9,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+286.0,2.1,1024.0,,Intel Core i3 6006U 2GHz,4
+799.0,2.56,512.0,,Intel Core i7 7700HQ 2.8GHz,16
+575.0,2.62,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+318.0,1.9,128.0,,Intel Core i5 7200U 2.5GHz,4
+1208.0,2.8,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+692.0,1.48,256.0,,Intel Core i5 7500U 2.7GHz,4
+396.0,1.91,256.0,,Intel Core i5 8250U 1.6GHz,6
+402.0,1.74,256.0,,Intel Core i3 7100U 2.4GHz,4
+841.0,1.1,256.0,,Intel Core i5 8250U 1.6GHz,8
+671.0,1.56,256.0,,Intel Core i7 8550U 1.8GHz,8
+286.0,2.1,500.0,,Intel Core i3 6006U 2.2GHz,4
+258.0,2.03,1024.0,,AMD A9-Series 9420 3GHz,4
+515.0,3.0,256.0,,Intel Core i5 8250U 1.6GHz,4
+465.0,2.13,256.0,,Intel Core i5 8250U 1.6GHz,8
+690.0,2.5,256.0,,Intel Core i7 7700HQ 2.8GHz,16
+222.0,2.1,1024.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+1150.0,2.4,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+232.0,2.1,1024.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+678.0,2.56,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+546.0,3.0,256.0,,Intel Core i5 8250U 1.6GHz,8
+482.0,1.49,500.0,,Intel Core i5 8250U 1.6GHz,4
+862.0,1.05,256.0,,Intel Core i5 7200U 2.5GHz,8
+447.0,2.71,2048.0,,Intel Core i5 7200U 2.5GHz,6
+198.0,2.2,500.0,,AMD A6-Series 9220 2.9GHz,4
+313.0,2.0,500.0,,Intel Core i3 7100U 2.4GHz,4
+590.0,2.5,256.0,,Intel Core i5 8250U 1.6GHz,8
+293.0,2.3,1024.0,,Intel Core i3 7100U 2.4GHz,8
+287.0,2.1,128.0,,Intel Core i3 6006U 2GHz,4
+1790.0,4.4,1536.0,,Intel Core i7 6920HQ 2.9GHz,32
+520.0,1.9,1152.0,,Intel Core i5 7200U 2.5GHz,8
+958.0,1.29,256.0,,Intel Core i5 8250U 1.6GHz,8
+671.0,2.02,2304.0,,Intel Core i7 8550U 1.8GHz,16
+894.0,1.23,256.0,,Intel Core i5 8250U 1.6GHz,8
+1182.0,1.4,512.0,,Intel Core i7 8550U 1.8GHz,16
+507.0,2.0,128.0,,Intel Core i5 7200U 2.5GHz,8
+767.0,1.95,256.0,,Intel Core i5 8250U 1.6GHz,8
+990.0,2.77,512.0,,Intel Core i7 8550U 1.8GHz,16
+1533.0,2.06,512.0,,Intel Core i7 7700HQ 2.8GHz,16
+498.0,2.4,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+632.0,1.12,256.0,,Intel Core i5 7Y54 1.2GHz,8
+694.0,2.8,1152.0,,Intel Core i7 8550U 1.8GHz,8
+1806.0,1.42,1024.0,,Intel Core i7 7500U 2.7GHz,16
+166.0,1.3,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+639.0,1.3,256.0,,Intel Core i5 7200U 2.5GHz,8
+446.0,2.8,256.0,,Intel Core i5 8250U 1.6GHz,8
+536.0,1.62,1024.0,,Intel Core i7 8550U 1.8GHz,8
+584.0,2.5,1024.0,,Intel Core i5 8250U 1.6GHz,8
+3899.0,3.49,1024.0,,Intel Core i7 7820HK 2.9GHz,32
+613.0,1.49,512.0,,Intel Core i5 8250U 1.6GHz,8
+882.0,3.35,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+668.0,2.5,256.0,,Intel Core i7 8550U 1.8GHz,8
+1180.0,2.65,1536.0,,Intel Core i7 7700HQ 2.8GHz,16
+315.0,2.1,128.0,,Intel Core i5 6200U 2.3GHz,4
+474.0,2.23,1024.0,,Intel Core i7 7500U 2.7GHz,8
+1118.0,3.2,1536.0,,Intel Core i7 7700HQ 2.8GHz,16
+1953.0,2.8,1280.0,,Intel Xeon E3-1505M V6 3GHz,16
+894.0,2.4,512.0,,Intel Core i7 7700HQ 2.8GHz,16
+281.0,2.3,1024.0,,Intel Core i3 7100U 2.4GHz,6
+1246.0,1.21,256.0,,Intel Core i7 8550U 1.8GHz,8
+926.0,1.2,256.0,,Intel Core i7 8550U 1.8GHz,8
+382.0,2.2,256.0,,Intel Core i5 7200U 2.5GHz,8
+498.0,2.4,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+900.0,2.9,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+223.0,2.1,500.0,,Intel Core i3 6006U 2GHz,4
+351.0,2.2,256.0,,Intel Core i5 7200U 2.5GHz,8
+958.0,1.05,512.0,,Intel Core i7 7500U 2.7GHz,8
+596.0,1.4,256.0,,Intel Core i7 8550U 1.8GHz,8
+377.0,2.8,1024.0,,Intel Core i5 7200U 2.5GHz,8
+659.0,1.63,256.0,,Intel Core i7 8550U 1.8GHz,8
+735.0,1.6,256.0,,Intel Core i5 8250U 1.6GHz,8
+818.0,1.62,512.0,,Intel Core i7 8550U 1.8GHz,16
+433.0,2.2,256.0,,Intel Core i5 8250U 1.6GHz,8
+575.0,1.74,256.0,,Intel Core i5 8250U 1.6GHz,8
+871.0,1.2,256.0,,Intel Core i7 6500U 2.5GHz,8
+508.0,2.1,1024.0,,Intel Core i5 8250U 1.6GHz,8
+1570.0,4.42,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+532.0,2.2,256.0,,Intel Core i7 7500U 2.7GHz,8
+549.0,2.3,1024.0,,Intel Core i7 7500U 2.7GHz,16
+492.0,2.0,256.0,,Intel Core i5 7200U 2.5GHz,8
+570.0,2.69,756.0,,Intel Core i5 7200U 2.5GHz,8
+811.0,1.9,1024.0,,Intel Core i7 7500U 2.7GHz,8
+255.0,2.37,1024.0,,Intel Core i3 7100U 2.4GHz,4
+211.0,2.1,500.0,,AMD E-Series 9000e 1.5GHz,4
+958.0,3.2,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+549.0,1.6,256.0,,Intel Core i5 7200U 2.5GHz,8
+441.0,1.6,256.0,,Intel Core i5 6200U 2.3GHz,8
+575.0,2.36,256.0,,Intel Core i7 7500U 2.7GHz,16
+249.0,2.1,1024.0,,Intel Core i3 6006U 2GHz,4
+368.0,2.2,1152.0,,AMD A10-Series A10-9620P 2.5GHz,4
+2487.0,4.7,1536.0,,Intel Core i7 7820HK 2.9GHz,32
+541.0,2.5,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+377.0,2.2,128.0,,Intel Core i3 6006U 2GHz,8
+732.0,2.1,1152.0,,Intel Core i7 8550U 1.8GHz,8
+568.0,2.69,1152.0,,Intel Core i7 7500U 2.7GHz,8
+562.0,2.56,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+690.0,1.38,256.0,,Intel Core i7 7500U 2.7GHz,8
+630.0,2.2,2176.0,,Intel Core i7 8550U 1.8GHz,8
+357.0,2.04,1024.0,,Intel Core i5 7200U 2.5GHz,8
+1917.0,3.6,256.0,,Intel Core i7 7820HK 2.9GHz,16
+432.0,1.49,500.0,,Intel Core i5 8250U 1.6GHz,4
+1304.0,1.37,512.0,,Intel Core i5 3.1GHz,8
+524.0,2.08,1024.0,,Intel Core i7 8550U 1.8GHz,8
+1150.0,4.3,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+300.0,1.68,1024.0,,AMD A9-Series 9420 3GHz,4
+1182.0,1.37,512.0,,Intel Core i7 8550U 1.8GHz,8
+449.0,3.0,256.0,,Intel Core i3 7130U 2.7GHz,4
+607.0,1.41,256.0,,Intel Core i5 8250U 1.6GHz,8
+285.0,1.91,128.0,,AMD A6-Series A6-9220 2.5GHz,8
+677.0,2.9,1024.0,,Intel Core i7 8550U 1.8GHz,16
+1598.0,4.14,1536.0,,Intel Core i7 7700HQ 2.8GHz,16
+1086.0,2.0,512.0,,Intel Core i7 7700HQ 2.8GHz,8
+730.0,2.8,1152.0,,Intel Core i7 8550U 1.8GHz,8
+284.0,2.2,256.0,,Intel Core i3 6006U 2GHz,4
+462.0,2.1,500.0,,Intel Core i5 8250U 1.6GHz,4
+420.0,2.18,1024.0,,Intel Core i5 7200U 2.5GHz,4
+361.0,2.24,1024.0,,Intel Core i5 7200U 2.5GHz,8
+511.0,2.67,256.0,,Intel Core i5 8250U 1.6GHz,8
+958.0,1.1,1024.0,,Intel Core i7 8550U 1.8GHz,8
+299.0,2.2,1024.0,,Intel Core i5 7200U 2.5GHz,4
+651.0,2.5,1024.0,,Intel Core i7 8550U 1.8GHz,8
+563.0,2.05,256.0,,Intel Core i7 8550U 1.8GHz,8
+1252.0,1.37,512.0,,Intel Core i5 2.9GHz,8
+990.0,3.2,1280.0,,AMD Ryzen 1700 3GHz,16
+470.0,2.14,256.0,,Intel Core i7 8550U 1.8GHz,8
+1598.0,1.36,512.0,,Intel Core i7 6600U 2.6GHz,16
+519.0,2.2,500.0,,Intel Core i7 6500U 2.5GHz,8
+456.0,2.3,1024.0,,Intel Core i7 7500U 2.7GHz,12
+703.0,2.8,1152.0,,Intel Core i7 8550U 1.8GHz,8
+476.0,2.2,1024.0,,Intel Core i7 8550U 1.8GHz,8
+313.0,2.8,1024.0,,Intel Core i3 6006U 2GHz,4
+543.0,2.8,2048.0,,Intel Core i7 8550U 1.8GHz,8
+549.0,2.8,1152.0,,Intel Core i7 7500U 2.7GHz,6
+274.0,2.25,1024.0,,Intel Core i3 6006U 2.0GHz,4
+530.0,2.5,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+370.0,2.2,256.0,,Intel Core i5 7200U 2.5GHz,6
+608.0,3.0,256.0,,Intel Core i7 8550U 1.8GHz,8
+421.0,2.15,1024.0,,Intel Core i7 7500U 2.7GHz,12
+701.0,1.95,256.0,,Intel Core i7 7500U 2.7GHz,8
+625.0,1.7,256.0,,Intel Core i5 7200U 2.5GHz,8
+754.0,2.5,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+421.0,2.2,1024.0,,Intel Core i7 7500U 2.7GHz,8
+127.0,2.19,16.0,,Intel Celeron Dual Core 3205U 1.5GHz,2
+759.0,3.0,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+313.0,2.54,1024.0,,Intel Core i3 6006U 2GHz,8
+1169.0,2.0,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+472.0,2.05,256.0,,Intel Core i5 8250U 1.6GHz,8
+831.0,3.2,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+626.0,2.5,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+1844.0,3.42,256.0,,Intel Core i7 7820HQ 2.9GHz,16
+319.0,2.4,1024.0,,AMD A10-Series 9600P 2.4GHz,6
+939.0,1.63,512.0,,Intel Core i7 7500U 2.7GHz,16
+325.0,1.3,128.0,,Intel Core i3 7100U 2.4GHz,4
+1357.0,2.9,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+415.0,2.8,1024.0,,Intel Core i5 7200U 2.5GHz,6
+351.0,2.2,2048.0,,Intel Core i5 7200U 2.5GHz,8
+809.0,2.5,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+230.0,2.2,1024.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+1263.0,1.28,256.0,,Intel Core i7 7600U 2.8GHz,16
+667.0,2.2,256.0,,Intel Core i7 6500U 2.5GHz,8
+524.0,2.3,1152.0,,Intel Core i5 7200U 2.5GHz,8
+300.0,1.86,1024.0,,Intel Core i3 6006U 2GHz,4
+639.0,1.1,256.0,,Intel Core i5 7200U 2.5GHz,8
+1598.0,1.21,1024.0,,Intel Core i7 8550U 1.8GHz,16
+1342.0,2.8,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+300.0,2.23,256.0,,AMD A8-Series 7410 2.2GHz,8
+176.0,1.1,32.0,,Intel Celeron Dual Core N3350 1.1GHz,2
+540.0,2.33,1152.0,,Intel Core i5 8250U 1.6GHz,8
+1566.0,1.29,1024.0,,Intel Core i7 8550U 1.8GHz,16
+294.0,1.45,16.0,,Intel Celeron Dual Core 3855U 1.6GHz,4
+627.0,1.95,256.0,,Intel Core i5 7200U 2.5GHz,8
+310.0,1.4,128.0,,Intel Pentium Quad Core N3710 1.6GHz,4
+826.0,1.48,256.0,,Intel Core i7 7500U 2.7GHz,8
+377.0,2.79,1024.0,,Intel Core i5 7200U 2.5GHz,4
+699.0,2.0,256.0,,Intel Core i7 7500U 2.7GHz,8
+577.0,2.1,1024.0,,Intel Core i7 8550U 1.8GHz,8
+421.0,2.2,256.0,,AMD A12-Series 9720P 2.7GHz,8
+187.0,1.44,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+351.0,2.23,1024.0,,Intel Core i5 7200U 2.5GHz,6
+671.0,1.7,256.0,,Intel Core i7 7500U 2.7GHz,8
+854.0,1.26,256.0,,Intel Core i7 7500U 2.7GHz,8
+1687.0,2.06,1024.0,,Intel Core i7 7700HQ 2.8GHz,32
+767.0,2.7,1280.0,,Intel Core i7 7700HQ 2.8GHz,8
+603.0,2.0,256.0,,Intel Core i5 7200U 2.5GHz,8
+853.0,2.0,1280.0,,Intel Core i7 7500U 2.7GHz,8
+287.0,1.85,1024.0,,Intel Core i3 6006U 2GHz,4
+639.0,2.5,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+811.0,1.48,256.0,,Intel Core i5 7300U 2.6GHz,8
+671.0,1.9,1152.0,,Intel Core i5 8250U 1.6GHz,8
+731.0,1.84,256.0,,Intel Core i5 7200U 2.5GHz,8
+176.0,2.0,1024.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+731.0,2.0,256.0,,Intel Core i5 8250U 1.6GHz,8
+176.0,2.2,500.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+575.0,2.2,2048.0,,AMD A12-Series 9720P 3.6GHz,12
+458.0,2.1,1024.0,,Intel Core i3 7100U 2.4GHz,8
+1342.0,1.4,512.0,,Intel Core i7 8550U 1.8GHz,16
+1010.0,1.2,256.0,,Intel Core i7 8550U 1.8GHz,8
+722.0,2.4,2304.0,,Intel Core i7 7700HQ 2.8GHz,16
+178.0,1.44,32.0,,Intel Celeron Dual Core N3060 1.6GHz,2
+1028.0,1.88,768.0,,Intel Core i7 8650U 1.9GHz,16
+240.0,1.5,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+424.0,1.9,1024.0,,Intel Core i5 8250U 1.6GHz,8
+1296.0,2.06,512.0,,Intel Core i7 7700HQ 2.8GHz,16
+834.0,1.84,256.0,,Intel Core i7 7500U 2.7GHz,8
+901.0,2.7,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+1111.0,2.6,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+897.0,2.4,512.0,,Intel Core i7 6500U 2.5GHz,16
+621.0,2.02,2176.0,,Intel Core i7 8550U 1.8GHz,8
+206.0,2.2,1024.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+639.0,2.65,1024.0,,Intel Core i5 7300HQ 2.5GHz,8
+356.0,2.36,2048.0,,Intel Core i5 7200U 2.5GHz,8
+912.0,1.36,256.0,,Intel Core i5 7300U 2.6GHz,8
+281.0,1.86,500.0,,Intel Core i3 6006U 2GHz,4
+604.0,2.0,256.0,,Intel Core i5 7200U 2.5GHz,8
+460.0,2.8,1152.0,,Intel Core i5 7200U 2.5GHz,6
+409.0,1.86,1024.0,,Intel Core i5 7200U 2.5GHz,8
+319.0,2.2,256.0,,Intel Core i3 6006U 2GHz,8
+249.0,2.04,2048.0,,Intel Pentium Quad Core N3710 1.6GHz,8
+694.0,2.8,1152.0,,Intel Core i5 8250U 1.6GHz,8
+517.0,2.4,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+575.0,2.33,256.0,,Intel Core i7 7500U 2.7GHz,8
+1119.0,1.36,256.0,,Intel Core i7 7500U 2.7GHz,8
+703.0,2.26,2560.0,,Intel Core i7 7500U 2.7GHz,12
+272.0,2.1,128.0,,AMD A9-Series 9420 3GHz,4
+1406.0,3.25,1280.0,,AMD Ryzen 1700 3GHz,16
+313.0,2.6,128.0,,AMD A8-Series 7410 2.2GHz,4
+556.0,1.62,256.0,,Intel Core i7 8550U 1.8GHz,8
+313.0,1.91,256.0,,AMD A9-Series 9420 3GHz,4
+354.0,1.59,128.0,,Intel Celeron Quad Core N3450 1.1GHz,4
+198.0,1.8,500.0,,Intel Celeron Dual Core N3060 1.60GHz,4
+183.0,1.5,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+541.0,2.4,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+761.0,3.35,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+258.0,1.85,128.0,,Intel Core i3 6006U 2GHz,4
+1058.0,2.3,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+703.0,1.5,256.0,,Intel Core i5 7200U 2.5GHz,8
+1118.0,1.1,512.0,,Intel Core i7 7500U 2.7GHz,16
+1459.0,1.13,512.0,,Intel Core i7 7500U 2.7GHz,8
+351.0,1.5,128.0,,Intel Core i3 7100U 2.4GHz,4
+875.0,2.23,500.0,,Intel Core i5 6440HQ 2.6GHz,8
+1365.0,2.0,256.0,,Intel Core i7 6820HQ 2.7GHz,8
+1604.0,1.42,512.0,,Intel Core i7 7500U 2.7GHz,16
+664.0,3.0,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+1017.0,3.0,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+444.0,2.2,1024.0,,Intel Core i5 8250U 1.6GHz,12
+862.0,2.7,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+498.0,2.33,256.0,,Intel Core i7 7500U 2.7GHz,8
+319.0,1.91,256.0,,AMD A9-Series 9420 3GHz,4
+786.0,2.1,256.0,,Intel Core i7 8550U 1.8GHz,8
+600.0,1.9,256.0,,Intel Core i5 7200U 2.5GHz,8
+1734.0,1.78,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+1678.0,1.13,1024.0,,Intel Core i7 7500U 2.7GHz,16
+196.0,2.2,1024.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+978.0,2.9,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+732.0,2.1,1280.0,,Intel Core i5 8250U 1.6GHz,8
+562.0,2.5,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+1438.0,2.8,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+1198.0,1.1,512.0,,Intel Core i7 7500U 2.7GHz,8
+1117.0,1.2,512.0,,Intel Core i7 6500U 2.5GHz,16
+1074.0,1.36,512.0,,Intel Core i7 7600U 2.8GHz,8
+261.0,2.2,500.0,,Intel Core i3 6006U 2GHz,4
+195.0,1.15,32.0,,Intel Celeron Dual Core N3350 1.1GHz,2
+1231.0,2.67,512.0,,Intel Core i7 7700HQ 2.8GHz,8
+1242.0,1.7,512.0,,Intel Core i7 7700HQ 2.8GHz,8
+300.0,2.1,1024.0,,Intel Core i3 6006U 2GHz,4
+504.0,1.6,256.0,,Intel Core i7 6500U 2.5GHz,8
+593.0,1.27,256.0,,Intel Core i5 7200U 2.5GHz,8
+383.0,2.3,256.0,,Intel Core i5 7200U 2.5GHz,4
+441.0,1.65,128.0,,Intel Core i3 6006U 2GHz,4
+959.0,1.43,256.0,,Intel Core i7 6500U 2.5GHz,8
+345.0,2.14,1024.0,,Intel Core i5 7200U 2.5GHz,8
+777.0,1.75,256.0,,Intel Core i7 8550U 1.8GHz,8
+1214.0,2.0,512.0,,Intel Core i7 7700HQ 2.8GHz,16
+287.0,1.4,64.0,,Intel Celeron Quad Core N3450 1.1GHz,6
+912.0,2.31,256.0,,Intel Core i7 7820HQ 2.9GHz,8
+382.0,2.3,1024.0,,Intel Core i3 7100U 2.4GHz,8
+1790.0,4.42,1280.0,,Intel Core i7 7820HK 2.9GHz,16
+741.0,2.62,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+730.0,2.02,2304.0,,Intel Core i7 8550U 1.8GHz,8
+703.0,1.6,256.0,,Intel Core i7 7600U 2.8GHz,8
+1278.0,3.35,1280.0,,Intel Core i7 7700HQ 2.8GHz,12
+191.0,1.16,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+172.0,1.15,16.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+646.0,1.4,256.0,,Intel Core i7 7500U 2.7GHz,8
+383.0,1.7,128.0,,Intel Core i3 7130U 2.7GHz,4
+1563.0,2.3,512.0,,Intel Core i7 7600U 2.8GHz,16
+1566.0,2.5,512.0,,Intel Core i7 7820HQ 2.9GHz,16
+1084.0,3.2,1280.0,,AMD Ryzen 1600 3.2GHz,8
+222.0,2.1,500.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+1406.0,1.1,512.0,,Intel Core i7 7Y75 1.3GHz,16
+1523.0,1.32,512.0,,Intel Core i7 7500U 2.7GHz,24
+357.0,2.0,256.0,,Intel Core i5 7200U 2.5GHz,4
+332.0,2.8,1024.0,,AMD A6-Series 9220 2.5GHz,8
+479.0,2.2,256.0,,Intel Core i5 8250U 1.6GHz,4
+914.0,1.36,256.0,,Intel Core i5 7200U 2.5GHz,8
+223.0,2.2,128.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+703.0,2.2,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+754.0,1.64,256.0,,Intel Core i5 7440HQ 2.8GHz,8
+282.0,2.4,500.0,,Intel Core i5 7200U 2.5GHz,4
+1274.0,2.23,1088.0,,Intel Xeon E3-1505M V6 3GHz,8
+657.0,2.2,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+1655.0,1.25,512.0,,Intel Core i7 7660U 2.5GHz,16
+377.0,1.91,128.0,,Intel Core i5 7200U 2.5GHz,8
+1263.0,2.17,256.0,,Intel Core i7 6820HQ 2.7GHz,16
+981.0,2.31,512.0,,Intel Core i7 7820HQ 2.9GHz,8
+860.0,1.65,256.0,,Intel Core i5 7200U 2.5GHz,8
+626.0,2.36,1152.0,,Intel Core i7 8550U 1.8GHz,8
+306.0,1.47,500.0,,Intel Pentium Quad Core N3710 1.6GHz,4
+1308.0,4.42,1024.0,,Intel Core i7 7700HQ 2.7GHz,8
+632.0,1.252,128.0,,Intel Core M m3-7Y30 2.2GHz,4
+1150.0,1.25,256.0,,Intel Core i7 7660U 2.5GHz,8
+409.0,2.5,256.0,,Intel Core i3 6006U 2GHz,8
+348.0,2.23,1024.0,,Intel Core i3 6006U 2GHz,4
+278.0,1.4,128.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+479.0,2.37,1024.0,,Intel Core i5 7200U 2.5GHz,8
+511.0,1.5,512.0,,Intel Core i7 7500U 2.7GHz,8
+1336.0,2.67,256.0,,Intel Core i7 7820HQ 2.9GHz,8
+194.0,2.0,500.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+300.0,2.2,500.0,,Intel Core i3 6006U 2GHz,4
+485.0,2.02,2048.0,,Intel Core i5 8250U 1.6GHz,8
+1086.0,3.78,1024.0,,Intel Core i7 7700HQ 2.8GHz,12
+1188.0,1.4,256.0,,Intel Core i7 6600U 2.6GHz,12
+1278.0,1.29,512.0,,Intel Core i7 8550U 1.8GHz,8
+738.0,1.9,500.0,,Intel Core i5 7200U 2.5GHz,8
+815.0,1.1,128.0,,Intel Core i5 7Y57 1.2GHz,8
+1178.0,1.42,256.0,,Intel Core i5 8250U 1.6GHz,8
+831.0,2.06,1152.0,,Intel Core i7 6700HQ 2.6GHz,12
+473.0,1.79,128.0,,Intel Core i3 6100U 2.3GHz,8
+1540.0,1.78,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+872.0,1.7,180.0,,Intel Core i5 7200U 2.5GHz,8
+432.0,2.2,1024.0,,Intel Core i5 8250U 1.6GHz,8
+1069.0,1.05,256.0,,Intel Core i5 7200U 2.5GHz,8
+807.0,2.16,512.0,,Intel Core i7 8550U 1.8GHz,8
+375.0,2.18,1024.0,,Intel Core i3 7100U 2.4GHz,4
+464.0,1.49,128.0,,Intel Core i5 8250U 1.6GHz,4
+159.0,1.89,64.0,,Intel Atom x5-Z8350 1.44GHz,4
+361.0,2.3,128.0,,Intel Core i3 6006U 2.0GHz,4
+671.0,1.75,256.0,,Intel Core i5 8250U 1.6GHz,8
+1495.0,2.17,512.0,,Intel Core i7 6820HQ 2.7GHz,16
+1214.0,2.06,512.0,,Intel Core i7 7700HQ 2.8GHz,16
+1150.0,1.36,512.0,,Intel Core i7 7500U 2.7GHz,16
+1247.0,0.91,512.0,,Intel Core i7 7500U 2.7GHz,16
+647.0,2.3,256.0,,Intel Core i5 7200U 2.5GHz,8
+1790.0,1.05,512.0,,Intel Core i7 7500U 2.7GHz,32
+863.0,1.99,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+370.0,2.2,1024.0,,AMD A10-Series 9620P 2.5GHz,8
+811.0,4.33,1280.0,,Intel Core i7 6700HQ 2.6GHz,24
+703.0,1.3,180.0,,Intel Core i5 6200U 2.3GHz,8
+575.0,2.17,256.0,,Intel Core i7 8550U 1.8GHz,8
+1118.0,1.48,1024.0,,Intel Core i7 7600U 2.8GHz,8
+607.0,1.4,256.0,,Intel Core i3 7100U 2.4GHz,8
+582.0,2.3,256.0,,Intel Core i5 7200U 2.5GHz,8
+217.0,1.2,64.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+396.0,1.91,256.0,,Intel Core i5 7200U 2.5GHz,8
+1022.0,1.4,256.0,,Intel Core i5 8250U 1.6GHz,8
+191.0,2.1,500.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+169.0,1.25,16.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+607.0,1.44,256.0,,Intel Core i5 7200U 2.5GHz,8
+783.0,2.0,1280.0,,Intel Core i7 7500U 2.7GHz,8
+392.0,2.2,1024.0,,Intel Core i5 8250U 1.6GHz,4
+846.0,1.34,512.0,,Intel Core i7 7500U 2.7GHz,8
+735.0,2.4,1280.0,,Intel Core i7 7700HQ 2.8GHz,8
+575.0,1.29,128.0,,Intel Core i5 7200U 2.5GHz,8
+409.0,2.2,500.0,,Intel Core i7 7500U 2.7GHz,4
+535.0,2.18,1024.0,,Intel Core i5 7200U 2.5GHz,8
+780.0,2.2,2304.0,,Intel Core i7 8550U 1.8GHz,16
+895.0,1.95,256.0,,Intel Core i7 8550U 1.8GHz,16
+157.0,1.1,32.0,,Intel Celeron Dual Core N3350 1.1GHz,2
+333.0,2.04,1024.0,,Intel Core i5 8250U 1.6GHz,4
+1898.0,2.24,512.0,,Intel Core i7 7700HQ 2.8GHz,24
+568.0,2.04,256.0,,Intel Core i5 7200U 2.5GHz,8
+962.0,3.0,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+894.0,3.2,1280.0,,Intel Core i7 7700HQ 2.8GHz,8
+894.0,1.32,256.0,,Intel Core i7 7500U 2.7GHz,8
+818.0,1.64,256.0,,Intel Core i5 7300U 2.6GHz,8
+441.0,1.63,128.0,,Intel Core i3 6006U 2GHz,4
+568.0,2.8,1152.0,,Intel Core i5 8250U 1.6GHz,8
+857.0,2.02,256.0,,Intel Core i5 6200U 2.3GHz,8
+511.0,2.2,1024.0,,Intel Core i7 7500U 2.7GHz,4
+293.0,2.2,2048.0,,Intel Core i3 6006U 2GHz,8
+374.0,2.3,500.0,,Intel Core i5 7200U 2.5GHz,4
+880.0,1.9,256.0,,Intel Core i5 7440HQ 2.8GHz,8
+1926.0,4.42,1152.0,,Intel Core i7 7700HQ 2.8GHz,16
+550.0,2.0,500.0,,Intel Core i5 7200U 2.5GHz,8
+831.0,2.0,1280.0,,Intel Core i7 7500U 2.7GHz,8
+236.0,1.2,32.0,,Intel Celeron Quad Core N3450 1.1GHz,4
+1054.0,2.3,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+875.0,1.93,256.0,,Intel Core i7 7600U 2.8GHz,8
+510.0,2.2,256.0,,Intel Core i5 8250U 1.6GHz,8
+255.0,1.86,256.0,,Intel Pentium Quad Core N3710 1.6GHz,4
+1150.0,2.62,1024.0,,Intel Core i7 7700HQ 2.8GHz,12
+549.0,1.87,256.0,,Intel Core i7 7500U 2.7GHz,8
+894.0,1.2,256.0,,Intel Core i7 8550U 1.8GHz,8
+470.0,1.6,128.0,,Intel Core i3 6006U 2GHz,4
+732.0,1.34,256.0,,Intel Core i7 7500U 2.7GHz,8
+510.0,2.4,1024.0,,Intel Core i5 7300HQ 2.5GHz,8
+223.0,2.0,500.0,,AMD E-Series 7110 1.8GHz,4
+451.0,2.1,128.0,,Intel Core i3 7100U 2.4GHz,4
+502.0,1.87,500.0,,Intel Core i5 7200U 2.5GHz,4
+296.0,2.15,1024.0,,Intel Core i5 6200U 2.3GHz,4
+254.0,1.86,500.0,,Intel Core i3 6006U 2GHz,4
+1105.0,1.99,512.0,,Intel Core i7 7500U 2.7GHz,8
+319.0,2.2,128.0,,Intel Core i3 6006U 2GHz,4
+714.0,1.9,256.0,,Intel Core i5 7200U 2.5GHz,8
+1726.0,4.42,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+348.0,2.65,1024.0,,Intel Core i3 6006U 2GHz,8
+818.0,2.63,1024.0,,Intel Core i7 7500U 2.7GHz,8
+143.0,2.0,500.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+163.0,1.35,32.0,,Intel Atom x5-Z8350 1.44GHz,4
+607.0,2.8,1152.0,,Intel Core i7 7500U 2.7GHz,6
+364.0,1.91,128.0,,AMD A10-Series A10-9620P 2.5GHz,6
+395.0,2.18,1024.0,,Intel Core i3 6006U 2GHz,4
+223.0,1.25,32.0,,Intel Celeron Dual Core N3350 2.0GHz,4
+403.0,2.05,128.0,,Intel Core i3 7130U 2.7GHz,4
+1256.0,1.16,512.0,,Intel Core M 6Y75 1.2GHz,16
+1917.0,3.4,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+536.0,2.5,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+1022.0,1.21,128.0,,Intel Core i5 8250U 1.6GHz,8
+613.0,1.93,500.0,,Intel Core i5 7300U 2.6GHz,4
+472.0,2.2,1024.0,,Intel Core i5 7200U 2.5GHz,8
+220.0,2.2,500.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+633.0,2.02,500.0,,Intel Core i5 7200U 2.5GHz,4
+1190.0,3.14,500.0,,Intel Core i5 7440HQ 2.8GHz,8
+249.0,1.94,2048.0,,Intel Pentium Quad Core N3710 1.6GHz,8
+415.0,1.95,256.0,,AMD A9-Series A9-9420 3GHz,6
+531.0,2.3,256.0,,Intel Core i5 7200U 2.5GHz,8
+438.0,2.05,500.0,,Intel Core i5 8250U 1.6GHz,4
+159.0,1.4,32.0,,Intel Atom x5-Z8350 1.44GHz,4
+1192.0,1.24,512.0,,Intel Core i7 7500U 2.7GHz,16
+1703.0,4.6,1280.0,,Intel Core i7 6820HK 2.7GHz,32
+1745.0,4.14,1536.0,,Intel Core i7 7820HK 2.9GHz,16
+479.0,2.2,256.0,,Intel Core i7 7500U 2.7GHz,8
+249.0,1.45,32.0,,Intel Celeron Quad Core N3450 1.1GHz,4
+645.0,1.9,500.0,,Intel Core i5 7300U 2.6GHz,8
+460.0,1.49,128.0,,Intel Core i3 7100U 2.4GHz,4
+983.0,1.93,256.0,,Intel Core i7 7600U 2.8GHz,16
+189.0,1.26,16.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+1502.0,4.5,1152.0,,Intel Core i7 6820HK 2.7GHz,16
+958.0,3.78,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+1070.0,1.4,256.0,,Intel Core i7 6600U 2.6GHz,12
+389.0,2.2,1024.0,,Intel Core i7 8550U 1.8GHz,12
+1132.0,2.73,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+472.0,2.2,1024.0,,Intel Core i5 7200U 2.5GHz,8
+607.0,2.2,512.0,,AMD A12-Series 9720P 3.6GHz,12
+386.0,1.39,128.0,,Intel Core M 7Y30 1.0GHz,4
+1086.0,2.5,1152.0,,Intel Core i7 7700HQ 2.8GHz,16
+338.0,2.8,500.0,,Intel Core i3 6006U 2GHz,4
+293.0,2.29,1024.0,,Intel Core i3 6100U 2.3GHz,8
+1295.0,1.37,512.0,,Intel Core i7 7500U 2.7GHz,8
+942.0,1.7,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+1068.0,1.34,256.0,,Intel Core i5 7200U 2.5GHz,8
+1127.0,2.06,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+779.0,1.84,256.0,,Intel Core i7 7500U 2.7GHz,8
+427.0,2.1,500.0,,Intel Core i3 7100U 2.4GHz,4
+210.0,1.6,32.0,,Intel Celeron Quad Core N3450 1.1GHz,4
+1406.0,4.14,1152.0,,Intel Core i7 6820HK 2.7GHz,16
+297.0,2.18,1024.0,,Intel Core i3 6006U 2GHz,4
+1470.0,1.8,2304.0,,Intel Core i7 7700HQ 2.8GHz,16
+894.0,2.2,256.0,,Intel Core i7 6500U 2.5GHz,8
+361.0,2.4,1024.0,,Intel Core i5 7200U 2.5GHz,6
+831.0,2.0,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+223.0,1.6,128.0,,Intel Pentium Quad Core N3710 1.6GHz,4
+3132.0,2.5,1024.0,,Intel Xeon E3-1535M v6 3.1GHz,32
+562.0,2.59,1024.0,,Intel Core i7 6700HQ 2.6GHz,16
+284.0,2.18,1024.0,,Intel Core i3 6006U 2.0GHz,4
+230.0,2.25,1024.0,,Intel Core i3 6006U 2.0GHz,4
+556.0,1.93,500.0,,Intel Core i5 7300U 2.6GHz,4
+747.0,3.0,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+364.0,2.18,128.0,,Intel Core i5 7200U 2.5GHz,4
+888.0,1.84,512.0,,Intel Core i7 7500U 2.7GHz,8
+1450.0,2.94,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+242.0,1.25,32.0,,Intel Celeron Quad Core N3160 1.6GHz,4
+719.0,2.31,256.0,,Intel Core i5 7300U 2.6GHz,8
+937.0,1.65,256.0,,Intel Core i5 6200U 2.3GHz,8
+496.0,2.2,1024.0,,Intel Core i5 8250U 1.6GHz,4
+511.0,2.2,256.0,,Intel Core i5 7200U 2.5GHz,8
+596.0,1.88,500.0,,Intel Core i5 6200U 2.3GHz,4
+575.0,2.2,1024.0,,Intel Core i7 7500U 2.7GHz,8
+153.0,1.4,32.0,,Intel Atom x5-Z8350 1.44GHz,2
+299.0,2.2,128.0,,Intel Core i5 7200U 2.5GHz,4
+409.0,1.5,1024.0,,Intel Core i5 7200U 2.5GHz,6
+1164.0,2.0,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+1215.0,1.1,512.0,,Intel Core i7 7500U 2.7GHz,16
+946.0,2.62,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+530.0,1.8,256.0,,Intel Core i5 8250U 1.6GHz,4
+370.0,2.2,1024.0,,Intel Core i3 6006U 2GHz,4
+255.0,2.0,1024.0,,Intel Celeron Dual Core N3350 1.1GHz,8
+580.0,1.99,1024.0,,Intel Core i5 7300HQ 2.5GHz,8
+1195.0,1.23,256.0,,Intel Core i5 8250U 1.6GHz,8
+159.0,1.42,32.0,,Intel Celeron Dual Core N3060 1.6GHz,2
+1124.0,1.37,256.0,,Intel Core i7 7500U 2.7GHz,8
+1534.0,2.06,1024.0,,Intel Core i7 7700HQ 2.8GHz,16
+709.0,2.5,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+333.0,2.6,1024.0,,AMD A9-Series 9420 3GHz,8
+1566.0,1.14,512.0,,Intel Core i7 7500U 2.7GHz,16
+747.0,2.5,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+288.0,2.4,500.0,,Intel Core i3 6006U 2GHz,4
+175.0,1.43,32.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+588.0,1.8,256.0,,Intel Core i5 7200U 2.5GHz,8
+1662.0,1.95,256.0,,Intel Core i7 7700HQ 2.8GHz,16
+776.0,1.2,256.0,,Intel Core i5 6200U 2.3GHz,8
+1013.0,1.36,256.0,,Intel Core i7 7500U 2.7GHz,8
+1790.0,3.8,512.0,,Intel Core i7 6820HK 2.7GHz,32
+453.0,2.4,1024.0,,Intel Core i5 7300HQ 2.5GHz,8
+927.0,1.2,256.0,,Intel Core i5 8250U 1.6GHz,8
+762.0,2.2,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+233.0,1.86,500.0,,Intel Core i3 6006U 2GHz,4
+680.0,2.0,500.0,,Intel Core i5 7200U 2.5GHz,8
+588.0,2.2,256.0,,Intel Core i7 8550U 1.8GHz,8
+726.0,2.2,2304.0,,Intel Core i7 8550U 1.8GHz,16
+765.0,3.31,1152.0,,Intel Core i7 6700HQ 2.6GHz,8
+2012.0,4.42,1536.0,,Intel Core i7 7700HQ 2.8GHz,32
+786.0,1.56,256.0,,Intel Core i5 6300U 2.4GHz,8
+268.0,2.2,500.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+342.0,2.2,500.0,,Intel Core i5 6200U 2.3GHz,4
+345.0,2.04,1024.0,,Intel Core i3 6006U 2GHz,6
+951.0,2.7,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+318.0,2.1,128.0,,Intel Core i3 6100U 2.1GHz,4
+611.0,2.06,1024.0,,Intel Core i5 7200U 2.5GHz,8
+476.0,2.1,1024.0,,Intel Core i7 7500U 2.7GHz,8
+804.0,2.0,256.0,,Intel Core i5 7200U 2.5GHz,8
+263.0,2.1,128.0,,Intel Core i3 6006U 2GHz,4
+1194.0,1.252,256.0,,Intel Core i7 7600U 2.8GHz,8
+523.0,1.9,1152.0,,Intel Core i5 7200U 2.5GHz,8
+661.0,1.3,256.0,,Intel Core i5 7200U 2.5GHz,8
+223.0,2.2,128.0,,AMD E-Series E2-9000 2.2GHz,4
+447.0,1.63,128.0,,Intel Core i3 7100U 2.4GHz,4
+827.0,2.4,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+726.0,1.1,256.0,,Intel Core i5 7200U 2.5GHz,8
+316.0,1.4,64.0,,Intel Celeron Dual Core N3350 1.1GHz,8
+1470.0,1.09,512.0,,Intel Core i7 8550U 1.8GHz,8
+831.0,2.5,256.0,,Intel Core i5 7300HQ 2.5GHz,16
+638.0,2.2,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+268.0,1.86,128.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+1311.0,3.21,1152.0,,Intel Core i5 7300HQ 2.5GHz,16
+447.0,2.5,256.0,,Intel Core i3 6006U 2GHz,4
+958.0,1.19,512.0,,Intel Core i7 8550U 1.8GHz,8
+1799.0,3.49,1280.0,,Intel Core i7 7820HK 2.9GHz,16
+392.0,1.86,500.0,,Intel Core i5 7200U 2.5GHz,4
+349.0,2.2,1024.0,,Intel Core i3 6006U 2GHz,4
+364.0,2.65,2048.0,,AMD A10-Series 9600P 2.4GHz,6
+203.0,2.1,500.0,,Intel Celeron Dual Core 3855U 1.6GHz,4
+240.0,1.45,32.0,,Intel Celeron Dual Core 3855U 1.6GHz,4
+447.0,1.7,256.0,,Intel Core i5 7200U 2.5GHz,4
+1220.0,3.14,500.0,,Intel Core i7 7700HQ 2.8GHz,8
+1656.0,1.42,256.0,,Intel Core i7 7500U 2.7GHz,8
+622.0,1.5,256.0,,Intel Core i5 7200U 2.5GHz,8
+172.0,1.4,32.0,,Intel Celeron Dual Core N3050 1.6GHz,4
+1118.0,1.38,512.0,,Intel Core i7 7500U 2.7GHz,16
+428.0,1.2,64.0,,Intel Core M M3-6Y30 0.9GHz,4
+1200.0,1.36,512.0,,Intel Core i7 6500U 2.5GHz,16
+441.0,2.1,500.0,,Intel Core i7 7500U 2.7GHz,4
+524.0,2.56,1024.0,,Intel Core i5 7300HQ 2.5GHz,8
+255.0,2.2,256.0,,AMD A9-Series 9420 2.9GHz,4
+274.0,2.2,1024.0,,AMD A12-Series 9720P 3.6GHz,8
+397.0,2.1,2048.0,,Intel Core i5 7200U 2.5GHz,4
+288.0,1.9,500.0,,Intel Core i3 6006U 2GHz,4
+508.0,2.18,256.0,,Intel Core i5 7200U 2.5GHz,8
+639.0,1.6,256.0,,Intel Core i5 8250U 1.6GHz,8
+1186.0,2.18,512.0,,Intel Core i7 6500U 2.5GHz,16
+761.0,1.8,256.0,,Intel Core i5 6300HQ 2.3GHz,8
+419.0,2.71,2048.0,,AMD A10-Series 9620P 2.5GHz,6
+799.0,2.5,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+696.0,1.64,256.0,,Intel Core i5 7440HQ 2.8GHz,8
+464.0,1.98,1024.0,,Intel Core i5 7200U 2.5GHz,8
+191.0,1.5,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+912.0,1.93,512.0,,Intel Core i5 7300U 2.6GHz,16
+548.0,1.87,256.0,,Intel Core i5 7200U 2.5GHz,8
+754.0,1.9,256.0,,Intel Core i5 7300U 2.6GHz,8
+191.0,2.19,500.0,,AMD A6-Series 7310 2GHz,4
+169.0,1.4,32.0,,Intel Atom Z8350 1.92GHz,4
+767.0,2.63,256.0,,Intel Core i7 7500U 2.7GHz,8
+1078.0,1.17,512.0,,Intel Core i7 6500U 2.5GHz,8
+535.0,1.58,256.0,,Intel Core i5 7200U 2.5GHz,8
+958.0,1.32,256.0,,Intel Core i5 7200U 2.5GHz,8
+2340.0,4.36,2048.0,,Intel Core i7 7700HQ 2.8GHz,32
+862.0,2.7,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+313.0,1.9,1024.0,,Intel Core i5 7200U 2.5GHz,4
+460.0,2.2,1152.0,,Intel Core i5 8250U 1.6GHz,8
+415.0,1.71,1024.0,,Intel Core i3 7100U 2.4GHz,4
+377.0,2.32,1024.0,,Intel Core i5 7200U 2.5GHz,8
+313.0,2.1,1024.0,,AMD A9-Series 9420 3GHz,4
+1237.0,4.2,1152.0,,Intel Core i7 6700HQ 2.6GHz,16
+415.0,2.25,1024.0,,Intel Core i5 7200U 2.5GHz,12
+416.0,2.1,1152.0,,AMD A9-Series A9-9420 3GHz,6
+357.0,2.4,500.0,,Intel Core i5 7200U 2.5GHz,4
+614.0,1.44,256.0,,Intel Core i5 7200U 2.5GHz,8
+498.0,1.85,1024.0,,Intel Core i7 7500U 2.7GHz,4
+1547.0,2.6,256.0,,Intel Core i7 7700HQ 2.8GHz,16
+421.0,1.55,1024.0,,Intel Core i5 8250U 1.6GHz,8
+1339.0,1.8,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+263.0,2.4,500.0,,Intel Core i3 6006U 2GHz,4
+772.0,2.0,1152.0,,Intel Core i7 7500U 2.7GHz,8
+425.0,2.0,256.0,,Intel Core i3 6006U 2GHz,8
+981.0,1.25,256.0,,Intel Core i5 7200U 2.5GHz,8
+639.0,1.7,256.0,,Intel Core i5 7200U 2.5GHz,8
+2109.0,2.5,1024.0,,Intel Core i7 7600U 2.8GHz,16
+211.0,1.68,32.0,,Intel Celeron Dual Core N3060 1.6GHz,2
+1054.0,0.81,256.0,,Intel Core i7 7500U 2.7GHz,16
+345.0,1.86,256.0,,Intel Core i3 6006U 2GHz,8
+720.0,1.6,256.0,,Intel Core i5 7200U 2.5GHz,8
+2806.0,3.0,256.0,,Intel Xeon E3-1535M v5 2.9GHz,16
+304.0,1.4,128.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+1215.0,1.84,256.0,,Intel Core i5 6300U 2.4GHz,8
+370.0,2.45,1024.0,,Intel Core i5 6300HQ 2.3GHz,4
+701.0,1.7,180.0,,Intel Core i5 6200U 2.3GHz,4
+543.0,2.37,256.0,,Intel Core i7 7500U 2.7GHz,4
+767.0,1.3,256.0,,Intel Core i5 6260U 1.8GHz,8
+703.0,2.2,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+998.0,2.59,256.0,,Intel Core i7 6700HQ 2.6GHz,8
+1834.0,4.42,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+383.0,2.1,256.0,,Intel Core i5 7200U 2.5GHz,4
+670.0,2.5,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+1189.0,1.18,256.0,,Intel Core i7 7600U 2.8GHz,16
+997.0,1.1,256.0,,Intel Core i5 7Y57 1.2GHz,8
+722.0,1.2,256.0,,Intel Core i5 7200U 2.5GHz,8
+543.0,1.65,500.0,,Intel Core i3 6006U 2GHz,4
+419.0,1.6,128.0,,Intel Core i5 6200U 2.3GHz,4
+301.0,2.8,1024.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+703.0,2.72,1152.0,,Intel Core i7 6700HQ 2.6GHz,16
+1022.0,1.31,256.0,,Intel Core i7 7500U 2.7GHz,8
+191.0,2.1,1024.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+755.0,2.3,256.0,,Intel Core i7 7500U 2.7GHz,16
+1150.0,1.71,256.0,,Intel Core i7 7500U 2.7GHz,16
+652.0,1.75,128.0,,Intel Core i5 6200U 2.3GHz,4
+703.0,2.62,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+795.0,1.26,256.0,,Intel Core i5 6200U 2.3GHz,4
+536.0,2.3,2048.0,,Intel Core i7 7500U 2.7GHz,12
+1515.0,2.5,512.0,,Intel Core i7 6820HQ 2.7GHz,16
+407.0,1.8,128.0,,Intel Core i3 7100U 2.4GHz,4
+1854.0,1.95,512.0,,Intel Core i7 7700HQ 2.8GHz,16
+372.0,2.0,128.0,,Intel Pentium Dual Core N4200 1.1GHz,8
+2295.0,4.42,2048.0,,Intel Core i7 7700HQ 2.8GHz,32
+1502.0,4.3,1280.0,,Intel Core i7 6700HQ 2.6GHz,16
+1128.0,1.47,512.0,,Intel Core i7 6600U 2.6GHz,16
+210.0,2.2,1024.0,,Intel Celeron Quad Core N3710 1.6GHz,8
+1470.0,1.7,512.0,,Intel Core i7 7500U 2.7GHz,16
+1209.0,1.6,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+696.0,2.2,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+639.0,2.4,1024.0,,Intel Core i7 7700HQ 2.8GHz,4
+1470.0,4.2,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+630.0,2.62,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+856.0,2.24,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+130.0,1.22,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+1260.0,1.37,512.0,,Intel Core i7 7500U 2.7GHz,8
+613.0,2.08,256.0,,Intel Core i5 7200U 2.5GHz,8
+745.0,0.92,512.0,,Intel Core M 1.2GHz,8
+1490.0,1.42,256.0,,Intel Core i5 7200U 2.5GHz,8
+191.0,1.63,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+518.0,1.95,128.0,,Intel Core i5 7200U 2.5GHz,8
+862.0,1.38,256.0,,Intel Core i7 7500U 2.7GHz,8
+472.0,2.0,256.0,,Intel Core i3 6006U 2GHz,8
+1320.0,3.14,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+703.0,2.37,256.0,,Intel Core i5 7200U 2.5GHz,8
+958.0,1.29,256.0,,Intel Core i5 7200U 2.5GHz,8
+1118.0,2.06,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+476.0,1.63,128.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+888.0,1.26,256.0,,Intel Core i5 7300U 2.6GHz,8
+499.0,2.1,500.0,,Intel Core i5 6200U 2.3GHz,4
+402.0,2.04,2048.0,,AMD A12-Series 9700P 2.5GHz,8
+1073.0,2.62,512.0,,Intel Core i7 7700HQ 2.8GHz,16
+389.0,2.4,1024.0,,Intel Core i5 7200U 2.5GHz,4
+1118.0,3.74,1024.0,,Intel Core i7 7700HQ 2.8GHz,12
+1544.0,2.9,1536.0,,Intel Core i7 7700HQ 2.8GHz,16
+958.0,0.81,256.0,,Intel Core i5 7200U 2.5GHz,8
+614.0,1.98,1024.0,,Intel Core i7 7500U 2.7GHz,8
+505.0,2.18,256.0,,Intel Core i5 7200U 2.5GHz,8
+1189.0,1.32,256.0,,Intel Core i7 7500U 2.7GHz,8
+1150.0,1.29,512.0,,Intel Core i7 7500U 2.5GHz,16
+246.0,1.23,16.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+1602.0,4.36,1152.0,,Intel Core i7 7700HQ 2.8GHz,16
+483.0,1.76,500.0,,Intel Core i5 6200U 2.3GHz,4
+313.0,2.1,500.0,,Intel Core i3 6006U 2GHz,4
+697.0,1.25,128.0,,Intel Core i5 7200U 2.5GHz,4
+1598.0,1.13,512.0,,Intel Core i7 7500U 2.7GHz,8
+767.0,2.4,256.0,,Intel Core i5 7300HQ 2.5GHz,8
+1199.0,1.13,256.0,,Intel Core i5 7200U 2.5GHz,8
+319.0,1.75,128.0,,Intel Pentium Dual Core 4405U 2.1GHz,4
+868.0,1.1,256.0,,Intel Core i5 7200U 2.5GHz,8
+374.0,1.76,500.0,,Intel Core i3 6006U 2GHz,4
+227.0,1.35,32.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+396.0,1.5,128.0,,Intel Core i3 7100U 2.4GHz,8
+3516.0,3.49,512.0,,Intel Core i7 7820HK 2.9GHz,32
+1342.0,1.1,512.0,,Intel Core i7 6600U 2.6GHz,16
+332.0,2.1,1024.0,,Intel Core i5 7200U 2.5GHz,4
+758.0,1.7,256.0,,Intel Core i5 6200U 2.3GHz,8
+1055.0,1.32,256.0,,Intel Core i5 7300U 2.6GHz,8
+1774.0,3.21,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+1547.0,2.9,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+428.0,2.0,500.0,,Intel Core i3 7100U 2.4GHz,4
+208.0,1.5,16.0,,Intel Celeron Quad Core N3160 1.6GHz,4
+377.0,2.3,128.0,,Intel Core i5 7200U 2.5GHz,8
+1150.0,2.73,1536.0,,Intel Core i7 6700HQ 2.6GHz,16
+1965.0,4.42,1536.0,,Intel Core i7 7700HQ 2.8GHz,32
+582.0,2.63,1024.0,,Intel Core i5 7200U 2.5GHz,8
+456.0,2.18,128.0,,Intel Core i5 7200U 2.5GHz,8
+1196.0,1.54,512.0,,Intel Core i7 6500U 2.5GHz,8
+472.0,2.18,256.0,,Intel Core i7 7500U 2.7GHz,4
+393.0,1.4,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+656.0,1.45,512.0,,Intel Core i5 6200U 2.3GHz,8
+1456.0,1.28,256.0,,Intel Core i5 7200U 2.5GHz,8
+939.0,1.54,512.0,,Intel Core i7 6500U 2.5GHz,8
+191.0,1.86,128.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+1214.0,2.1,1152.0,,Intel Core i7 7700HQ 2.8GHz,16
+553.0,2.83,1024.0,,Intel Core i7 7500U 2.7GHz,8
+1217.0,1.96,256.0,,Intel Core i7 7700HQ 2.8GHz,8
+503.0,2.3,256.0,,Intel Core i7 7500U 2.7GHz,8
+604.0,1.9,128.0,,Intel Core i5 7200U 2.5GHz,8
+287.0,2.0,1024.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+1636.0,1.28,256.0,,Intel Core i7 7600U 2.8GHz,8
+415.0,1.62,1024.0,,Intel Core i5 6200U 2.3GHz,8
+300.0,2.2,1024.0,,Intel Core i3 6006U 2.0GHz,4
+544.0,2.3,1024.0,,Intel Core i5 7200U 2.5GHz,8
+862.0,1.84,256.0,,Intel Core i5 7300U 2.6GHz,8
+822.0,1.05,128.0,,Intel Core i5 7200U 2.5GHz,4
+650.0,2.5,1024.0,,Intel Core i5 7300HQ 2.5GHz,8
+1432.0,1.29,512.0,,Intel Core i7 7660U 2.5GHz,16
+582.0,2.07,500.0,,Intel Core i5 6200U 2.3GHz,4
+700.0,1.2,256.0,,Intel Core i5 6200U 2.3GHz,8
+1247.0,1.37,256.0,,Intel Core i7 7500U 2.7GHz,8
+577.0,1.56,256.0,,Intel Core i5 7200U 2.5GHz,8
+1137.0,2.23,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+675.0,2.38,500.0,,Intel Core i5 7200U 2.5GHz,4
+306.0,2.2,1024.0,,Intel Core i3 6006U 2GHz,4
+887.0,2.0,256.0,,Intel Core i7 7500U 2.7GHz,8
+470.0,1.44,180.0,,Intel Core i3 7100U 2.4GHz,4
+1182.0,1.23,256.0,,Intel Core i7 7500U 2.7GHz,16
+1081.0,1.6,256.0,,Intel Core i7 7600U 2.8GHz,8
+255.0,2.0,1024.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+598.0,1.28,256.0,,Intel Core i5 6200U 2.3GHz,8
+583.0,2.18,1152.0,,Intel Core i5 7200U 2.5GHz,4
+536.0,2.04,256.0,,Intel Core i5 7200U 2.5GHz,4
+1087.0,1.28,256.0,,Intel Core i5 7200U 2.5GHz,4
+438.0,2.3,500.0,,Intel Core i5 7200U 2.5GHz,4
+222.0,1.65,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+428.0,2.2,1024.0,,Intel Core i7 6500U 2.5GHz,8
+236.0,2.2,500.0,,Intel Pentium Quad Core N3710 1.6GHz,4
+1150.0,1.28,256.0,,Intel Core i5 7200U 2.5GHz,4
+291.0,2.18,1024.0,,Intel Core i3 6006U 2.0GHz,4
+876.0,2.2,1152.0,,Intel Core i5 7300HQ 2.5GHz,12
+190.0,1.25,32.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+242.0,2.8,500.0,,AMD A4-Series 7210 2.2GHz,4
+809.0,1.95,128.0,,Intel Core i5 7200U 2.5GHz,4
+894.0,1.42,256.0,,Intel Core i7 7500U 2.7GHz,16
+1086.0,1.17,256.0,,Intel Core i7 7500U 2.7GHz,8
+1150.0,1.32,256.0,,Intel Core i5 7200U 2.5GHz,8
+1694.0,2.43,2560.0,,Intel Core i7 6700HQ 2.6GHz,16
+943.0,1.05,256.0,,Intel Core i5 7200U 2.5GHz,8
+594.0,2.62,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+575.0,2.04,1024.0,,Intel Core i7 7500U 2.7GHz,8
+393.0,2.18,1024.0,,Intel Core i3 6006U 2.0GHz,4
+598.0,1.9,500.0,,Intel Core i5 7300U 2.6GHz,8
+1287.0,1.24,512.0,,Intel Core i7 7Y75 1.3GHz,8
+818.0,3.58,512.0,,Intel Core i7 6820HK 2.7GHz,32
+1054.0,1.22,256.0,,Intel Core i7 7Y75 1.3GHz,16
+1310.0,1.13,256.0,,Intel Core i7 7500U 2.7GHz,8
+1255.0,1.95,512.0,,Intel Core i5 7200U 2.5GHz,8
+1342.0,1.08,512.0,,Intel Core i7 7500U 2.7GHz,16
+948.0,1.26,512.0,,Intel Core i7 7500U 2.7GHz,8
+230.0,2.2,16.0,,Intel Celeron Dual Core 3205U 1.5GHz,4
+504.0,2.6,1152.0,,Intel Core i5 6300HQ 2.3GHz,8
+1214.0,0.98,512.0,,Intel Core i7 7500U 2.7GHz,8
+770.0,1.6,256.0,,Intel Core i5 7440HQ 2.8GHz,8
+1982.0,1.09,240.0,,Intel Core M 6Y75 1.2GHz,8
+504.0,2.2,256.0,,Intel Core i7 7500U 2.7GHz,6
+652.0,2.04,256.0,,Intel Core i7 7500U 2.7GHz,8
+319.0,2.4,1024.0,,Intel Core i3 7100U 2.4GHz,4
+563.0,1.44,128.0,,Intel Core i5 7200U 2.5GHz,4
+614.0,1.49,256.0,,Intel Core i5 7200U 2.5GHz,8
+1022.0,2.7,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+862.0,2.6,1152.0,,Intel Core i7 7700HQ 2.8GHz,16
+716.0,2.2,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+438.0,2.18,1024.0,,Intel Core i5 7200U 2.5GHz,4
+829.0,1.84,256.0,,Intel Core i7 6500U 2.5GHz,8
+735.0,1.39,256.0,,Intel Core i7 7500U 2.7GHz,8
+1263.0,2.4,256.0,,Intel Core i7 6600U 2.6GHz,16
+1167.0,1.37,512.0,,Intel Core i5 7200U 2.5GHz,8
+467.0,1.95,500.0,,Intel Core i5 6200U 2.3GHz,4
+1055.0,1.36,256.0,,Intel Core i7 7500U 2.7GHz,8
+745.0,2.31,256.0,,Intel Core i5 6200U 2.3GHz,8
+453.0,2.18,1024.0,,Intel Core i5 7200U 2.5GHz,4
+735.0,1.95,500.0,,Intel Core i5 6200U 2.3GHz,4
+198.0,2.2,1024.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+1010.0,1.26,500.0,,Intel Core i5 6200U 2.3GHz,4
+185.0,1.86,1024.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+1150.0,1.3,1024.0,,Intel Core i7 6560U 2.2GHz,16
+706.0,1.47,128.0,,Intel Core i5 6200U 2.3GHz,4
+1067.0,1.26,256.0,,Intel Core i5 6200U 2.3GHz,8
+357.0,2.18,1024.0,,Intel Core i3 6006U 2.0GHz,4
+767.0,2.2,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+1048.0,1.36,256.0,,Intel Core i5 7200U 2.5GHz,8
+1763.0,4.36,1536.0,,Intel Core i7 6820HK 2.7GHz,16
+894.0,2.75,1152.0,,Intel Core i5 6300HQ 2.3GHz,8
+339.0,2.8,1024.0,,Intel Pentium Quad Core N3710 1.6GHz,4
+396.0,2.23,500.0,,Intel Core i5 7200U 2.5GHz,4
+715.0,2.2,256.0,,Intel Core i5 6200U 2.3GHz,8
+831.0,1.1,256.0,,Intel Core M m7-6Y75 1.2GHz,8
+639.0,2.5,1536.0,,AMD FX 8800P 2.1GHz,16
+941.0,1.36,256.0,,Intel Core i5 7200U 2.5GHz,8
+438.0,2.2,1024.0,,Intel Core i7 7500U 2.7GHz,8
+421.0,2.36,1024.0,,Intel Core i3 6006U 2.0GHz,4
+223.0,1.68,32.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+1438.0,2.0,8.0,,Intel Core i7 6820HQ 2.7GHz,8
+1135.0,1.36,256.0,,Intel Core i7 7600U 2.8GHz,8
+933.0,1.2,256.0,,Intel Core i5 6200U 2.3GHz,8
+741.0,1.2,64.0,,Intel Core M M7-6Y75 1.2GHz,8
+952.0,1.7,256.0,,Intel Core i7 6600U 2.6GHz,8
+2017.0,4.36,1536.0,,Intel Core i7 7700HQ 2.8GHz,16
+1214.0,1.24,256.0,,Intel Core i5 7Y54 1.2GHz,8
+496.0,1.45,256.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+811.0,1.3,256.0,,Intel Core i7 6500U 2.5GHz,8
+249.0,1.25,32.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+981.0,1.2,256.0,,Intel Core i5 6300U 2.4GHz,8
+1125.0,1.36,256.0,,Intel Core i5 7300U 2.6GHz,8
+645.0,2.4,1152.0,,Intel Core i5 7200U 2.5GHz,12
+1144.0,1.1,512.0,,Intel Core i7 7500U 2.7GHz,8
+541.0,2.04,1024.0,,Intel Core i5 7200U 2.50GHz,8
+298.0,2.25,1024.0,,Intel Core i3 6006U 2.0GHz,4
+527.0,1.9,500.0,,Intel Core i5 7200U 2.5GHz,4
+438.0,2.04,500.0,,Intel Core i3 7100U 2.4GHz,4
+2013.0,4.42,1280.0,,Intel Core i7 7700HQ 2.8GHz,32
+444.0,2.4,256.0,,Intel Core i5 7200U 2.5GHz,6
+1214.0,1.22,512.0,,Intel Core i7 7Y75 1.3GHz,16
+1255.0,1.5,256.0,,Intel Core i7 6600U 2.6GHz,8
+1790.0,4.42,1280.0,,Intel Core i7 6700HQ 2.6GHz,32
+754.0,1.95,256.0,,Intel Core i5 6200U 2.3GHz,8
+1311.0,2.73,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+626.0,2.04,1152.0,,Intel Core i5 7200U 2.70GHz,8
+641.0,1.7,508.0,,Intel Core i5 6200U 2.3GHz,4
+1150.0,2.3,2560.0,,Intel Core i7 7500U 2.7GHz,16
+370.0,2.04,1024.0,,Intel Core i7 7500U 2.7GHz,6
+1118.0,2.99,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+831.0,2.19,512.0,,Intel Core i7 7500U 2.7GHz,12
+764.0,1.2,128.0,,Intel Core i5 6200U 2.3GHz,4
+351.0,2.2,256.0,,AMD A12-Series 9720P 3.6GHz,6
+415.0,2.3,256.0,,Intel Core i5 6200U 2.3GHz,4
+585.0,1.75,500.0,,Intel Core i5 6200U 2.3GHz,4
+383.0,2.25,500.0,,Intel Core i5 7200U 2.5GHz,4
+515.0,2.04,1024.0,,Intel Core i5 7200U 2.5GHz,8
+760.0,2.5,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+479.0,2.36,1024.0,,Intel Core i7 7500U 2.7GHz,8
+715.0,1.6,128.0,,Intel Core i5 7200U 2.5GHz,8
+1220.0,0.97,512.0,,Intel Core M 6Y75 1.2GHz,8
+319.0,2.1,1152.0,,Intel Core i3 6006U 2GHz,4
+173.0,1.9,128.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+862.0,2.3,256.0,,Intel Core i5 6200U 2.3GHz,8
+568.0,1.68,256.0,,Intel Core i5 7200U 2.5GHz,8
+735.0,1.4,256.0,,Intel Core i5 7200U 2.5GHz,8
+862.0,1.11,256.0,,Intel Core i7 7500U 2.7GHz,8
+243.0,2.4,500.0,,Intel Pentium Quad Core N4200 1.1GHz,4
+1150.0,2.5,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+1336.0,1.48,512.0,,Intel Core i7 7500U 2.7GHz,8
+806.0,2.7,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+760.0,1.34,256.0,,Intel Core i5 7200U 2.5GHz,8
+350.0,2.18,128.0,,Intel Core i3 7100U 2.4GHz,4
+498.0,1.64,500.0,,Intel Core i5 7200U 2.5GHz,4
+764.0,1.2,128.0,,Intel Core i5 6200U 2.3GHz,4
+703.0,1.48,256.0,,Intel Core i5 6300U 2.4GHz,4
+770.0,1.95,256.0,,Intel Core i5 7200U 2.5GHz,4
+926.0,1.43,256.0,,Intel Core i7 6600U 2.6GHz,8
+671.0,1.64,256.0,,Intel Core i5 7200U 2.5GHz,8
+437.0,1.64,500.0,,Intel Core i3 7100U 2.4GHz,4
+607.0,2.65,1024.0,,Intel Core i5 7300HQ 2.5GHz,8
+984.0,1.26,500.0,,Intel Core i5 7200U 2.5GHz,4
+1017.0,1.48,256.0,,Intel Core i5 7200U 2.5GHz,4
+1207.0,1.54,256.0,,Intel Core i7 6500U 2.5GHz,8
+511.0,1.49,500.0,,Intel Core i3 7100U 2.4GHz,4
+774.0,1.5,256.0,,Intel Core i5 6200U 2.3GHz,8
+492.0,2.04,256.0,,Intel Core i3 7100U 2.4GHz,4
+1898.0,2.4,512.0,,Intel Core i7 6820HQ 2.7GHz,16
+953.0,1.47,256.0,,Intel Core i5 6200U 2.3GHz,8
+1425.0,1.43,256.0,,Intel Core i7 6500U 2.5GHz,8
+509.0,2.08,1024.0,,Intel Core i3 6100U 2.3GHz,4
+1017.0,1.2,256.0,,Intel Core i5 6200U 2.3GHz,8
+735.0,1.11,256.0,,Intel Core i5 7200U 2.5GHz,8
+758.0,1.64,256.0,,Intel Core i7 7500U 2.7GHz,8
+669.0,2.09,500.0,,Intel Core i5 6300U 2.4GHz,8
+997.0,1.26,256.0,,Intel Core i5 7200U 2.5GHz,4
+760.0,2.31,500.0,,Intel Core i5 7200U 2.5GHz,4
+678.0,1.95,500.0,,Intel Core i5 7200U 2.5GHz,4
+1038.0,1.29,256.0,,Intel Core i5 7200U 2.5GHz,8
+691.0,2.63,256.0,,Intel Core i5 7200U 2.5GHz,8
+622.0,1.64,256.0,,Intel Core i5 7200U 2.5GHz,4
+261.0,2.1,1024.0,,AMD A9-Series 9420 3GHz,6
+762.0,2.7,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+764.0,1.95,256.0,,Intel Core i5 6200U 2.3GHz,8
+786.0,1.84,256.0,,Intel Core i7 6500U 2.5GHz,8
+862.0,1.26,256.0,,Intel Core i7 6500U 2.5GHz,8
+474.0,2.04,500.0,,Intel Core i5 7200U 2.5GHz,4
+1103.0,1.47,256.0,,Intel Core i7 6600U 2.6GHz,8
+680.0,2.09,256.0,,Intel Core i5 6300U 2.4GHz,8
+646.0,1.64,256.0,,Intel Core i5 7200U 2.5GHz,8
+542.0,1.8,256.0,,Intel Core i7 6500U 2.5GHz,4
+135.0,1.45,32.0,,Intel Atom X5-Z8350 1.44GHz,2
+911.0,2.4,256.0,,Intel Core i7 6500U 2.5GHz,16
+671.0,2.3,256.0,,Intel Core i5 6200U 2.3GHz,8
+639.0,1.54,500.0,,Intel Core i5 6200U 2.3GHz,4
+1345.0,1.84,756.0,,Intel Core i5 6300U 2.4GHz,8
+939.0,1.43,256.0,,Intel Core i5 6200U 2.3GHz,8
+988.0,3.78,1280.0,,Intel Core i7 6820HK 2.7GHz,16
+1464.0,4.6,1152.0,,Intel Core i7 6700HQ 2.6GHz,16
+184.0,1.2,16.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+1675.0,1.1,256.0,,Intel Core i7 6600U 2.6GHz,16
+626.0,1.91,1024.0,,Intel Core i7 7500U 2.7GHz,8
+699.0,2.3,256.0,,Intel Core i5 7200U 2.7GHz,8
+626.0,2.04,256.0,,Intel Core i5 7200U 2.5GHz,4
+1441.0,1.2,1024.0,,Intel Core i7 7500U 2.7GHz,16
+451.0,2.31,500.0,,Intel Core i3 6100U 2.3GHz,4
+319.0,1.96,500.0,,Intel Core i5 7200U 2.5GHz,4
+287.0,2.4,1024.0,,AMD A8-Series 7410 2.2GHz,8
+831.0,1.6,256.0,,Intel Core i7 7500U 2.7GHz,12
+1163.0,2.94,1280.0,,Intel Core i7 6700HQ 2.6GHz,16
+684.0,2.04,256.0,,Intel Core i7 7500U 2.7GHz,8
+638.0,4.0,1024.0,,Intel Core i7 6700HQ 2.6GHz,16
+357.0,2.25,1024.0,,Intel Core i5 7200U 2.5GHz,4
+633.0,2.32,2048.0,,Intel Core i7 7500U 2.7GHz,16
+1233.0,1.8,1280.0,,Intel Core i7 6700HQ 2.6GHz,16
+932.0,1.29,256.0,,Intel Core i7 7500U 2.7GHz,8
+2541.0,3.58,1024.0,,Intel Core i7 6820HK 2.7GHz,64
+510.0,1.62,256.0,,Intel Core i7 6500U 2.5GHz,8
+850.0,3.21,1280.0,,Intel Core i7 6700HQ 2.6GHz,16
+831.0,0.92,256.0,,Intel Core M 1.1GHz,8
+308.0,2.06,500.0,,Intel Core i3 6100U 2.3GHz,4
+767.0,2.31,500.0,,Intel Core i5 6200U 2.3GHz,4
+767.0,1.26,256.0,,Intel Core i5 6200U 2.3GHz,8
+697.0,1.49,256.0,,Intel Core i7 7500U 2.7GHz,8
+1096.0,1.3,256.0,,Intel Core i7 6500U 2.5GHz,8
+421.0,3.0,1024.0,,Intel Core i5 6200U 2.3GHz,8
+625.0,2.3,1024.0,,Intel Core i5 6300HQ 2.3GHz,4
+1598.0,3.78,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+345.0,2.1,500.0,,Intel Core i5 6200U 2.3GHz,4
+601.0,2.31,500.0,,Intel Core i5 6200U 2.3GHz,4
+894.0,0.99,512.0,,Intel Core M 6Y75 1.2GHz,8
+2072.0,4.6,1536.0,,Intel Core i7 6820HK 2.7GHz,32
+413.0,0.69,64.0,,Intel Atom x5-Z8550 1.44GHz,4
+1310.0,1.3,512.0,,Intel Core i7 7500U 2.7GHz,16
+480.0,2.18,256.0,,Intel Core i5 7200U 2.5GHz,8
+659.0,1.54,500.0,,Intel Core i5 6200U 2.3GHz,4
+956.0,1.9,256.0,,Intel Core i7 6500U 2.5GHz,8
+767.0,1.7,180.0,,Intel Core i5 6200U 2.3GHz,8
+393.0,1.29,32.0,,Intel Pentium Dual Core 4405Y 1.5GHz,4
+247.0,2.4,500.0,,AMD A8-Series 7410 2.2GHz,4
+252.0,2.2,500.0,,Intel Pentium Quad Core N3700 1.6GHz,4
+221.0,1.86,1024.0,,Intel Core i3 6006U 2GHz,4
+1022.0,2.7,1280.0,,Intel Core i7 7700HQ 2.8GHz,8
+523.0,1.4,256.0,,Intel Core i5 8250U 1.6GHz,4
+1022.0,2.4,128.0,,Intel Core i5 6200U 2.3GHz,4
+511.0,2.4,1280.0,,Intel Core i5 7200U 2.5GHz,8
+408.0,2.36,1024.0,,Intel Core i5 7200U 2.5GHz,8
+1022.0,2.6,256.0,,Intel Core i7 6700HQ 2.6GHz,8
+320.0,1.96,1024.0,,Intel Pentium Quad Core N3710 1.6GHz,4
+1470.0,4.3,1152.0,,Intel Core i7 6700HQ 2.6GHz,16
+726.0,1.5,500.0,,Intel Core i3 6100U 2.3GHz,4
+746.0,1.5,128.0,,Intel Core i3 6100U 2.3GHz,4
+134.0,2.2,16.0,,Intel Celeron Dual Core 3205U 1.5GHz,4
+1854.0,3.0,1024.0,,Intel Core i7 6700HQ 2.6GHz,8
+767.0,2.4,512.0,,Intel Core i7 7700HQ 2.8GHz,16
+903.0,1.5,256.0,,Intel Core i5 6200U 2.3GHz,8
+966.0,2.9,1152.0,,Intel Core i7 6700HQ 2.6GHz,8
+554.0,2.1,256.0,,Intel Core i5 6200U 2.3GHz,4
+254.0,2.1,1024.0,,AMD A6-Series 9220 2.5GHz,4
+856.0,2.59,1152.0,,Intel Core i7 6700HQ 2.6GHz,16
+1086.0,1.16,256.0,,Intel Core M 6Y54 1.1GHz,8
+492.0,2.24,500.0,,Intel Core i5 6200U 2.3GHz,4
+274.0,2.1,128.0,,Intel Core i3 6006U 2.0GHz,4
+1259.0,1.16,512.0,,Intel Core i7 6500U 2.5GHz,8
+351.0,0.69,64.0,,Intel Atom x5-Z8550 1.44GHz,4
+882.0,1.23,256.0,,Intel Core i7 7560U 2.4GHz,8
+1758.0,4.6,1280.0,,Intel Core i7 6820HK 2.7GHz,16
+658.0,1.25,256.0,,Intel Core i7 6500U 2.5GHz,8
+1423.0,1.05,512.0,,Intel Core i7 7500U 2.7GHz,16
+839.0,3.52,1152.0,,Intel Core i7 6700HQ 2.6GHz,8
+125.0,1.35,32.0,,Intel Atom X5-Z8350 1.44GHz,4
+1081.0,1.16,256.0,,Intel Core i5 6200U 2.3GHz,8
+967.0,1.43,256.0,,Intel Core i5 6200U 2.3GHz,8
+335.0,2.09,500.0,,Intel Core i5 6200U 2.3GHz,4
+278.0,2.0,1024.0,,Intel Core i3 7100U 2.4GHz,4
+1067.0,1.8,256.0,,Intel Core i7 6500U 2.5GHz,8
+306.0,0.69,64.0,,Intel Atom x5-Z8550 1.44GHz,4
+1212.0,1.26,256.0,,Intel Core i5 6300U 2.4GHz,8
+632.0,2.4,1152.0,,Intel Core i5 7300HQ 2.5GHz,8
+722.0,3.35,1152.0,,Intel Core i5 6300HQ 2.3GHz,8
+402.0,2.04,2048.0,,Intel Core i7 7500U 2.7GHz,8
+1311.0,1.8,512.0,,Intel Core i7 6600U 2.6GHz,8
+178.0,1.5,32.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+481.0,1.84,256.0,,Intel Core i7 7500U 2.7GHz,8
+394.0,2.23,1024.0,,Intel Core i5 7200U 2.5GHz,4
+703.0,2.5,1024.0,,Intel Core i7 6500U 2.5GHz,16
+2525.0,3.0,256.0,,Intel Core i7 6700HQ 2.6GHz,8
+501.0,2.5,1024.0,,Intel Core i5 7200U 2.5GHz,8
+1534.0,3.78,1280.0,,Intel Core i7 6820HQ 2.7GHz,16
+1389.0,1.88,256.0,,Intel Core i7 6500U 2.5GHz,8
+1560.0,2.8,512.0,,Intel Core i7 6600U 2.6GHz,16
+731.0,2.4,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+1042.0,1.48,256.0,,Intel Core i5 6300U 2.4GHz,8
+1425.0,2.59,256.0,,Intel Core i7 6700HQ 2.6GHz,8
+1150.0,1.48,256.0,,Intel Core i7 6600U 2.6GHz,8
+1214.0,2.0,256.0,,Intel Core i7 6700HQ 2.6GHz,8
+1469.0,1.26,256.0,,Intel Core i7 6500U 2.50GHz,8
+646.0,2.18,256.0,,Intel Core i7 7500U 2.7GHz,8
+1010.0,1.88,256.0,,Intel Core i5 6200U 2.3GHz,8
+1495.0,1.27,256.0,,Intel Core i7 6500U 2.5GHz,8
+217.0,1.9,1024.0,,Intel Core i3 6006U 2.0GHz,4
+190.0,1.86,500.0,,AMD E-Series 7110 1.8GHz,4
+383.0,2.32,1024.0,,Intel Core i5 6200U 2.3GHz,8
+767.0,2.62,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+1439.0,2.04,256.0,,Intel Core i5 6300HQ 2.3GHz,8
+306.0,1.91,256.0,,AMD A6-Series A6-9220 2.5GHz,4
+954.0,2.7,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+1470.0,1.4,512.0,,Intel Core i7 6600U 2.6GHz,12
+504.0,2.5,1024.0,,Intel Core i5 6200U 2.3GHz,8
+1305.0,1.48,512.0,,Intel Core i7 6600U 2.6GHz,8
+958.0,1.7,256.0,,Intel Core i7 6600U 2.6GHz,8
+1131.0,1.7,1280.0,,Intel Core i7 6700HQ 2.6GHz,16
+575.0,2.62,1024.0,,Intel Core i7 7700HQ 2.8GHz,8
+293.0,2.2,1024.0,,Intel Core i3 6006U 2.0GHz,8
+305.0,2.1,500.0,,Intel Core i5 6200U 2.3GHz,4
+958.0,2.62,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+889.0,1.95,256.0,,Intel Core i5 7200U 2.5GHz,8
+299.0,2.2,1024.0,,Intel Core i3 6006U 2GHz,4
+159.0,1.44,32.0,,Intel Celeron Dual Core N3060 1.6GHz,2
+536.0,2.2,1024.0,,Intel Core i7 7500U 2.7GHz,8
+434.0,1.96,256.0,,Intel Core i7 6500U 2.5GHz,8
+741.0,2.1,512.0,,Intel Core i7 8550U 1.8GHz,16
+236.0,2.2,500.0,,Intel Celeron Dual Core N3050 1.6GHz,4
+254.0,2.1,500.0,,Intel Core i5 6200U 2.3GHz,4
+453.0,2.2,1024.0,,Intel Core i7 7500U 2.7GHz,8
+492.0,2.0,256.0,,Intel Core i3 7100U 2.4GHz,4
+527.0,2.32,1024.0,,Intel Core i7 6500U 2.5GHz,4
+834.0,3.31,512.0,,Intel Core i7 6700HQ 2.6GHz,16
+1377.0,1.91,1152.0,,Intel Core i7 6700HQ 2.6GHz,16
+416.0,2.07,500.0,,Intel Core i3 6100U 2.3GHz,4
+1047.0,1.36,256.0,,Intel Core i5 6200U 2.3GHz,8
+531.0,1.54,256.0,,Intel Core i7 7500U 2.7GHz,6
+572.0,1.98,256.0,,Intel Core i7 7500U 2.7GHz,8
+213.0,2.1,500.0,,Intel Celeron Dual Core N3350 2GHz,4
+511.0,2.18,1024.0,,Intel Core i7 6700HQ 2.6GHz,6
+581.0,2.591,1280.0,,Intel Core i7 6700HQ 2.6GHz,8
+754.0,2.09,512.0,,Intel Core i7 7500U 2.7GHz,16
+442.0,2.23,256.0,,Intel Core i5 7200U 2.5GHz,4
+703.0,1.23,256.0,,Intel Core i5 6300U 2.4GHz,8
+1662.0,4.2,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+524.0,2.4,1024.0,,Intel Core i5 7300HQ 2.5GHz,8
+421.0,1.15,32.0,,Samsung Cortex A72&A53 2.0GHz,4
+310.0,1.86,500.0,,Intel Core i5 7200U 2.5GHz,4
+744.0,0.92,256.0,,Intel Core M 1.1GHz,8
+767.0,1.6,256.0,,Intel Core i5 7200U 2.5GHz,8
+848.0,2.21,1152.0,,Intel Core i7 7700HQ 2.8GHz,12
+235.0,1.9,1024.0,,Intel Core i3 6006U 2GHz,4
+1375.0,4.3,1536.0,,Intel Core i7 6700HQ 2.6GHz,16
+174.0,2.1,1024.0,,Intel Celeron Dual Core N3350 2GHz,4
+1310.0,2.43,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+319.0,2.3,128.0,,Intel Core i3 6006U 2.0GHz,4
+402.0,2.2,500.0,,Intel Core i7 6500U 2.5GHz,8
+822.0,2.0,512.0,,Intel Core i7 8550U 1.8GHz,16
+1713.0,1.2,512.0,,Intel Core i7 7500U 2.7GHz,16
+747.0,2.2,1024.0,,Intel Core i7 6700HQ 2.6GHz,8
+568.0,2.36,256.0,,Intel Core i5 7200U 2.5GHz,8
+370.0,1.91,256.0,,Intel Core i5 7200U 2.5GHz,8
+191.0,2.2,500.0,,AMD E-Series 9000 2.2GHz,4
+402.0,3.3,1024.0,,Intel Core i3 6006U 2.0GHz,8
+1566.0,2.2,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+818.0,0.92,512.0,,Intel Core M 1.2GHz,8
+1118.0,2.2,1152.0,,Intel Core i7 7700HQ 2.8GHz,16
+1246.0,2.43,1280.0,,Intel Core i7 6700HQ 2.6GHz,16
+639.0,2.191,256.0,,Intel Core i5 7200U 2.5GHz,8
+1246.0,2.9,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+111.0,1.3,32.0,,Intel Celeron Dual Core 3205U 1.5GHz,2
+382.0,3.3,1024.0,,Intel Core i3 6006U 2GHz,4
+345.0,2.8,1024.0,,Intel Core i5 7200U 2.5GHz,8
+813.0,2.6,1152.0,,Intel Core i7 6700HQ 2.6GHz,8
+735.0,1.2,256.0,,Intel Core i7 7Y75 1.3GHz,8
+978.0,2.3,256.0,,Intel Core i7 6600U 2.6GHz,8
+944.0,2.2,1152.0,,Intel Core i7 6700HQ 2.6GHz,8
+338.0,2.1,1024.0,,AMD A12-Series 9720P 2.7GHz,6
+1095.0,1.26,256.0,,Intel Core i5 6300U 2.4GHz,8
+325.0,2.08,500.0,,Intel Core i3 7100U 2.4GHz,4
+198.0,2.65,1024.0,,Intel Pentium Quad Core N3710 1.6GHz,4
+944.0,1.29,256.0,,Intel Core i7 7500U 2.7GHz,8
+334.0,2.18,1024.0,,Intel Core i5 7200U 2.5GHz,4
+658.0,2.6,1152.0,,Intel Core i7 6700HQ 2.6GHz,16
+735.0,2.2,1152.0,,Intel Core i7 7700HQ 2.8GHz,8
+1055.0,1.3,512.0,,Intel Core i7 6500U 2.50GHz,16
+2237.0,1.95,1024.0,,Intel Core i7 7700HQ 2.8GHz,16
+300.0,2.3,1024.0,,Intel Core i3 7100U 2.4GHz,8
+1022.0,2.7,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+613.0,1.08,256.0,,Intel Core i5 1.6GHz,4
+306.0,2.1,1024.0,,Intel Core i3 6006U 2GHz,4
+1405.0,1.54,256.0,,Intel Core i7 6500U 2.5GHz,8
+471.0,2.24,500.0,,Intel Core i5 6200U 2.3GHz,4
+747.0,2.3,1152.0,,Intel Core i7 6700HQ 2.6GHz,8
+958.0,1.4,512.0,,Intel Core i7 7500U 2.7GHz,16
+382.0,2.2,256.0,,AMD A12-Series 9720P 3.6GHz,6
+818.0,1.45,256.0,,Intel Core i7 6500U 2.5GHz,8
+231.0,2.4,500.0,,Intel Core i3 6006U 2.0GHz,4
+1150.0,2.77,512.0,,Intel Core i7 7500U 2.7GHz,16
+703.0,1.54,256.0,,Intel Core i5 6200U 2.3GHz,4
+1023.0,2.5,1280.0,,Intel Core i7 7700HQ 2.8GHz,16
+559.0,1.6,500.0,,Intel Core i5 7200U 2.5GHz,4
+1487.0,2.34,1280.0,,Intel Core i7 6700HQ 2.6GHz,16
+366.0,2.3,256.0,,Intel Core i5 7200U 2.5GHz,8
+1159.0,1.24,256.0,,Intel Core i5 7Y54 1.2GHz,8
+207.0,2.2,500.0,,Intel Pentium Quad Core N3710 1.6GHz,4
+255.0,1.86,500.0,,AMD A6-Series 9220 2.5GHz,4
+364.0,2.4,128.0,,Intel Core i3 6100U 2.3GHz,6
+685.0,1.9,256.0,,Intel Core i5 6200U 2.3GHz,8
+284.0,2.2,500.0,,Intel Pentium Quad Core N3700 1.6GHz,4
+217.0,2.0,1024.0,,Intel Celeron Dual Core N3350 1.1GHz,4
+1215.0,4.0,1152.0,,Intel Core i7 6700HQ 2.6GHz,16
+313.0,2.29,500.0,,Intel Core i3 6006U 2GHz,4
+572.0,2.32,1024.0,,Intel Core i7 6500U 2.5GHz,8
+786.0,2.4,1152.0,,Intel Core i7 6700HQ 2.6GHz,8
+533.0,1.8,128.0,,Intel Core i5 6200U 2.3GHz,4
+466.0,1.2,512.0,,Intel Core M 6Y30 0.9GHz,8
+293.0,2.3,1024.0,,Intel Core i3 7100U 2.4GHz,6
+185.0,2.4,500.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+242.0,2.2,500.0,,Intel Celeron Dual Core N3050 1.6GHz,2
+575.0,2.6,1024.0,,Intel Core i7 6700HQ 2.6GHz,8
+352.0,2.04,1024.0,,AMD A9-Series 9410 2.9GHz,6
+515.0,2.3,1024.0,,Intel Core i7 7500U 2.7GHz,8
+134.0,1.17,32.0,,Intel Celeron Dual Core N3060 1.6GHz,2
+461.0,2.2,500.0,,Intel Core i7 6500U 2.5GHz,4
+408.0,1.8,128.0,,Intel Core i7 6500U 2.5GHz,4
+958.0,1.3,512.0,,Intel Core i7 6500U 2.5GHz,16
+146.0,1.5,64.0,,Intel Celeron Dual Core N3050 1.6GHz,2
+488.0,2.19,1024.0,,Intel Core i7 6500U 2.5GHz,6
+236.0,2.2,500.0,,Intel Celeron Dual Core N3050 1.6GHz,4
+466.0,1.2,512.0,,Intel Core M 6Y30 0.9GHz,8
+293.0,2.3,1024.0,,Intel Core i3 7100U 2.4GHz,6
+185.0,2.4,500.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+242.0,2.2,500.0,,Intel Celeron Dual Core N3050 1.6GHz,2
+575.0,2.6,1024.0,,Intel Core i7 6700HQ 2.6GHz,8
+352.0,2.04,1024.0,,AMD A9-Series 9410 2.9GHz,6
+515.0,2.3,1024.0,,Intel Core i7 7500U 2.7GHz,8
+134.0,1.17,32.0,,Intel Celeron Dual Core N3060 1.6GHz,2
+461.0,2.2,500.0,,Intel Core i7 6500U 2.5GHz,4
+408.0,1.8,128.0,,Intel Core i7 6500U 2.5GHz,4
+958.0,1.3,512.0,,Intel Core i7 6500U 2.5GHz,16
+146.0,1.5,64.0,,Intel Celeron Dual Core N3050 1.6GHz,2
+488.0,2.19,1024.0,,Intel Core i7 6500U 2.5GHz,6
+236.0,2.2,500.0,,Intel Celeron Dual Core N3050 1.6GHz,4
+466.0,1.2,512.0,,Intel Core M 6Y30 0.9GHz,8
+293.0,2.3,1024.0,,Intel Core i3 7100U 2.4GHz,6
+185.0,2.4,500.0,,Intel Celeron Dual Core N3060 1.6GHz,4
+242.0,2.2,500.0,,Intel Celeron Dual Core N3050 1.6GHz,2
+575.0,2.6,1024.0,,Intel Core i7 6700HQ 2.6GHz,8
+352.0,2.04,1024.0,,AMD A9-Series 9410 2.9GHz,6
+515.0,2.3,1024.0,,Intel Core i7 7500U 2.7GHz,8
+134.0,1.17,32.0,,Intel Celeron Dual Core N3060 1.6GHz,2
+461.0,2.2,500.0,,Intel Core i7 6500U 2.5GHz,4
+408.0,1.8,128.0,,Intel Core i7 6500U 2.5GHz,4
+958.0,1.3,512.0,,Intel Core i7 6500U 2.5GHz,16
+146.0,1.5,64.0,,Intel Celeron Dual Core N3050 1.6GHz,2
+488.0,2.19,1024.0,,Intel Core i7 6500U 2.5GHz,6
+236.0,2.2,500.0,,Intel Celeron Dual Core N3050 1.6GHz,4

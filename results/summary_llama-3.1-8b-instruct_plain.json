@@ -1,0 +1,13 @@
+{
+  "model": "llama-3.1-8b-instruct",
+  "variant": "plain",
+  "n_chains_evaluated": 557,
+  "n_chains_dropped_parse": 16,
+  "DVR": 0.12387791741472172,
+  "SRR": 0.009575104727707959,
+  "RR": 0.37043686415320165,
+  "rank_DVR": 0.036505086774386596,
+  "rank_SRR": 0.00718132854578097,
+  "chain_fully_consistent_rate": 0.644524236983842,
+  "pairwise_flip_rate": 0.03764213046080191
+}

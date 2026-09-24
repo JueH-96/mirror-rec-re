@@ -1,0 +1,13 @@
+{
+  "model": "glm-4-9b-chat",
+  "variant": "plain",
+  "n_chains_evaluated": 572,
+  "n_chains_dropped_parse": 1,
+  "DVR": 0.03496503496503497,
+  "SRR": 0.008158508158508158,
+  "RR": 0.19114219114219114,
+  "rank_DVR": 0.03613053613053613,
+  "rank_SRR": 0.008158508158508158,
+  "chain_fully_consistent_rate": 0.8986013986013986,
+  "pairwise_flip_rate": 0.04772727272727273
+}

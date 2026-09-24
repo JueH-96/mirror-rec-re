@@ -1,0 +1,212 @@
+{
+ "note": "descriptive only, non-preregistered (plan Sec 5b); no significance tests; answers whether order_aug trades away strength-semantics OOD ability",
+ "t4_leg": {
+  "S2": {
+   "per_seed": {
+    "1042": {
+     "DVR_t4": 0.1149,
+     "DVR_main": 0.0009,
+     "degradation": 0.114
+    },
+    "1043": {
+     "DVR_t4": 0.1851,
+     "DVR_main": 0.0,
+     "degradation": 0.1851
+    },
+    "1044": {
+     "DVR_t4": 0.2465,
+     "DVR_main": 0.0053,
+     "degradation": 0.2412
+    }
+   },
+   "mean_degradation": 0.1801
+  },
+  "S7": {
+   "per_seed": {
+    "1042": {
+     "DVR_t4": 0.0,
+     "DVR_main": 0.0,
+     "degradation": 0.0
+    },
+    "1043": {
+     "DVR_t4": 0.0,
+     "DVR_main": 0.0,
+     "degradation": 0.0
+    },
+    "1044": {
+     "DVR_t4": 0.0,
+     "DVR_main": 0.0,
+     "degradation": 0.0
+    }
+   },
+   "mean_degradation": 0.0
+  },
+  "S8": {
+   "per_seed": {
+    "1042": {
+     "DVR_t4": 0.0018,
+     "DVR_main": 0.0,
+     "degradation": 0.0018
+    },
+    "1043": {
+     "DVR_t4": 0.0,
+     "DVR_main": 0.0,
+     "degradation": 0.0
+    },
+    "1044": {
+     "DVR_t4": 0.0,
+     "DVR_main": 0.0,
+     "degradation": 0.0
+    }
+   },
+   "mean_degradation": 0.0006
+  },
+  "S2perm": {
+   "per_seed": {
+    "1042": {
+     "DVR_t4": 0.5175,
+     "DVR_main": 0.3443,
+     "degradation": 0.1732
+    },
+    "1043": {
+     "DVR_t4": 0.3991,
+     "DVR_main": 0.2496,
+     "degradation": 0.1496
+    },
+    "1044": {
+     "DVR_t4": 0.2246,
+     "DVR_main": 0.1469,
+     "degradation": 0.0776
+    }
+   },
+   "mean_degradation": 0.1335
+  },
+  "S7perm": {
+   "per_seed": {
+    "1042": {
+     "DVR_t4": 0.0096,
+     "DVR_main": 0.0,
+     "degradation": 0.0096
+    },
+    "1043": {
+     "DVR_t4": 0.0,
+     "DVR_main": 0.0,
+     "degradation": 0.0
+    },
+    "1044": {
+     "DVR_t4": 0.0,
+     "DVR_main": 0.0004,
+     "degradation": -0.0004
+    }
+   },
+   "mean_degradation": 0.0031
+  },
+  "S8perm": {
+   "per_seed": {
+    "1042": {
+     "DVR_t4": 0.0096,
+     "DVR_main": 0.0,
+     "degradation": 0.0096
+    },
+    "1043": {
+     "DVR_t4": 0.0053,
+     "DVR_main": 0.0,
+     "degradation": 0.0053
+    },
+    "1044": {
+     "DVR_t4": 0.0,
+     "DVR_main": 0.0,
+     "degradation": 0.0
+    }
+   },
+   "mean_degradation": 0.005
+  },
+  "S2_delta_perm_minus_nonaug": -0.0466,
+  "S7_delta_perm_minus_nonaug": 0.0031,
+  "S8_delta_perm_minus_nonaug": 0.0044
+ },
+ "c4_leg": {
+  "S7c": {
+   "per_seed": {
+    "1042": {
+     "unseen_transition_rate": 0.0,
+     "full_chain_DVR": 0.0,
+     "RR": 1.0
+    },
+    "1043": {
+     "unseen_transition_rate": 0.002,
+     "full_chain_DVR": 0.0013,
+     "RR": 0.9987
+    },
+    "1044": {
+     "unseen_transition_rate": 0.0,
+     "full_chain_DVR": 0.0,
+     "RR": 1.0
+    }
+   },
+   "mean_unseen_rate": 0.0007
+  },
+  "S8c": {
+   "per_seed": {
+    "1042": {
+     "unseen_transition_rate": 0.0,
+     "full_chain_DVR": 0.0,
+     "RR": 1.0
+    },
+    "1043": {
+     "unseen_transition_rate": 0.0007,
+     "full_chain_DVR": 0.0004,
+     "RR": 0.9987
+    },
+    "1044": {
+     "unseen_transition_rate": 0.0,
+     "full_chain_DVR": 0.0,
+     "RR": 1.0
+    }
+   },
+   "mean_unseen_rate": 0.0002
+  },
+  "S7cperm": {
+   "per_seed": {
+    "1042": {
+     "unseen_transition_rate": 0.0303,
+     "full_chain_DVR": 0.0202,
+     "RR": 0.975
+    },
+    "1043": {
+     "unseen_transition_rate": 0.0066,
+     "full_chain_DVR": 0.0048,
+     "RR": 0.9798
+    },
+    "1044": {
+     "unseen_transition_rate": 0.0007,
+     "full_chain_DVR": 0.0004,
+     "RR": 0.9939
+    }
+   },
+   "mean_unseen_rate": 0.0125
+  },
+  "S8cperm": {
+   "per_seed": {
+    "1042": {
+     "unseen_transition_rate": 0.0,
+     "full_chain_DVR": 0.0,
+     "RR": 0.9987
+    },
+    "1043": {
+     "unseen_transition_rate": 0.002,
+     "full_chain_DVR": 0.0013,
+     "RR": 0.9961
+    },
+    "1044": {
+     "unseen_transition_rate": 0.0,
+     "full_chain_DVR": 0.0,
+     "RR": 1.0
+    }
+   },
+   "mean_unseen_rate": 0.0007
+  },
+  "S7c_delta_perm_minus_nonaug": 0.0118,
+  "S8c_delta_perm_minus_nonaug": 0.0005
+ }
+}

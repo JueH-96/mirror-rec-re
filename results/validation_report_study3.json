@@ -1,0 +1,110 @@
+{
+  "splits": {
+    "train": {
+      "n_sets": 1600,
+      "n_eligible": 1600,
+      "ineligible_reasons_count": {},
+      "n_specs": 12800,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ],
+      "attributes": [
+        "battery_life",
+        "price",
+        "weight"
+      ]
+    },
+    "val": {
+      "n_sets": 200,
+      "n_eligible": 200,
+      "ineligible_reasons_count": {},
+      "n_specs": 1600,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ],
+      "attributes": [
+        "battery_life",
+        "price",
+        "weight"
+      ]
+    },
+    "test_main": {
+      "n_sets": 400,
+      "n_eligible": 380,
+      "ineligible_reasons_count": {
+        "out_of_range": 20
+      },
+      "n_specs": 3200,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ],
+      "attributes": [
+        "battery_life",
+        "price",
+        "weight"
+      ]
+    },
+    "test_unseen_word": {
+      "n_sets": 400,
+      "n_eligible": 380,
+      "ineligible_reasons_count": {
+        "out_of_range": 20
+      },
+      "n_specs": 1600,
+      "n_rejected_specs": 0,
+      "families": [
+        "T3"
+      ],
+      "attributes": [
+        "battery_life",
+        "price",
+        "weight"
+      ]
+    },
+    "test_unseen_attr": {
+      "n_sets": 200,
+      "n_eligible": 195,
+      "ineligible_reasons_count": {
+        "gap_below_threshold": 4,
+        "out_of_range": 1
+      },
+      "n_specs": 1600,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ],
+      "attributes": [
+        "storage"
+      ]
+    }
+  },
+  "leakage_checks": {
+    "item_ids_train_vs_val_disjoint": true,
+    "item_ids_train_vs_test_main_disjoint": true,
+    "item_ids_train_vs_test_unseen_attr_disjoint": true,
+    "item_ids_val_vs_test_main_disjoint": true,
+    "item_ids_val_vs_test_unseen_attr_disjoint": true,
+    "item_ids_test_main_vs_test_unseen_attr_disjoint": true,
+    "item_ids_train_vs_pilot_disjoint": true,
+    "context_train_vs_pilot_disjoint": true,
+    "item_ids_val_vs_pilot_disjoint": true,
+    "context_val_vs_pilot_disjoint": true,
+    "item_ids_test_main_vs_pilot_disjoint": true,
+    "context_test_main_vs_pilot_disjoint": true,
+    "item_ids_test_unseen_attr_vs_pilot_disjoint": true,
+    "context_test_unseen_attr_vs_pilot_disjoint": true,
+    "context_train_vs_test_disjoint": true,
+    "context_train_vs_val_disjoint": true,
+    "held_out_family_T3_absent_from_train": true,
+    "held_out_attr_storage_absent_from_train": true,
+    "seed_domain_disjoint_from_pilot": true
+  },
+  "fatal": []
+}

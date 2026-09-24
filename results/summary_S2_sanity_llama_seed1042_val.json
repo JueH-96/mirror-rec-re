@@ -1,0 +1,13 @@
+{
+  "model": "S2_sanity_llama_seed1042",
+  "variant": "val",
+  "n_chains_evaluated": 400,
+  "n_chains_dropped_parse": 0,
+  "DVR": 0.29583333333333334,
+  "SRR": 0.0,
+  "RR": 0.6566666666666666,
+  "rank_DVR": 0.0,
+  "rank_SRR": 0.0,
+  "chain_fully_consistent_rate": 0.2675,
+  "pairwise_flip_rate": 0.0001666666666666667
+}

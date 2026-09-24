@@ -1,0 +1,13 @@
+{
+  "model": "S1_llama",
+  "variant": "test_domain_phone",
+  "n_chains_evaluated": 246,
+  "n_chains_dropped_parse": 54,
+  "DVR": 0.0,
+  "SRR": 0.0,
+  "RR": 0.24390243902439024,
+  "rank_DVR": 0.06910569105691057,
+  "rank_SRR": 0.005420054200542005,
+  "chain_fully_consistent_rate": 1.0,
+  "pairwise_flip_rate": 0.06273712737127371
+}

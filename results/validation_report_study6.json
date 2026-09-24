@@ -1,0 +1,123 @@
+{
+  "splits": {
+    "test_order_p1": {
+      "n_specs": 800,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ]
+    },
+    "test_order_p2": {
+      "n_specs": 800,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ]
+    },
+    "test_order_p3": {
+      "n_specs": 800,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ]
+    },
+    "test_order_p4": {
+      "n_specs": 800,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ]
+    },
+    "test_order_p5": {
+      "n_specs": 800,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ]
+    },
+    "test_distract_d1": {
+      "n_specs": 800,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ]
+    },
+    "test_distract_d2": {
+      "n_specs": 800,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ]
+    },
+    "test_distract_d4": {
+      "n_specs": 800,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ]
+    },
+    "test_mix12": {
+      "n_specs": 400,
+      "n_rejected_specs": 0,
+      "families": [
+        "M12"
+      ]
+    },
+    "test_mix123": {
+      "n_specs": 400,
+      "n_rejected_specs": 0,
+      "families": [
+        "M123"
+      ]
+    },
+    "test_mix1234": {
+      "n_specs": 400,
+      "n_rejected_specs": 0,
+      "families": [
+        "M1234"
+      ]
+    },
+    "test_conflict": {
+      "n_sets": 100,
+      "n_eligible": 100,
+      "ineligible_reasons": {},
+      "n_specs": 800,
+      "n_rejected_specs": 0
+    },
+    "test_neartied": {
+      "n_sets": 350,
+      "n_eligible": 350,
+      "tier_counts": {
+        "2x": 100,
+        "1x": 100,
+        "05x": 150
+      },
+      "failed_custom_gate": [],
+      "policy_note": "standard gap>=min_pair_gap check waived by design for 1x/0.5x tiers (frozen plan section 5); custom gate = range + direction + exact tier gap",
+      "n_specs": 2800,
+      "n_rejected_specs": 0
+    }
+  },
+  "checks": {
+    "subsample_subset_of_test_main_eligible": true,
+    "subsample_size_100": true,
+    "order_perms_item_preserving": true,
+    "order_perms_actually_permuted": true,
+    "distract_context_prefix_and_tiers": true,
+    "mix_chains_multi_family": true,
+    "conflict_nontarget_domination": true,
+    "neartied_custom_gate_all_pass": true,
+    "neartied_tier_counts": true,
+    "new_set_ids_disjoint": true,
+    "new_contexts_disjoint": true
+  },
+  "fatal": []
+}

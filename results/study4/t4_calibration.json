@@ -1,0 +1,31 @@
+{
+  "family": "T4",
+  "status": "exploratory (not preregistered)",
+  "templates": {
+    "1": "Having {attr} would be a small plus for me.",
+    "2": "I'm keen on getting {attr}.",
+    "3": "Honestly, I'm really keen on getting {attr}.",
+    "4": "For me, nothing matters more than {noun}."
+  },
+  "cues": {
+    "4": [
+      "nothing matters more"
+    ],
+    "3": [
+      "really keen"
+    ],
+    "2": [
+      "keen on"
+    ],
+    "1": [
+      "a small plus"
+    ]
+  },
+  "checks": {
+    "roundtrip_all_correct": true,
+    "unseen_certificate": true,
+    "no_cross_family_collision": true
+  },
+  "failures": [],
+  "calibration_passed": true
+}

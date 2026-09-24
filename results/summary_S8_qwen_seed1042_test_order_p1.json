@@ -1,0 +1,13 @@
+{
+  "model": "S8_qwen_seed1042",
+  "variant": "test_order_p1",
+  "n_chains_evaluated": 200,
+  "n_chains_dropped_parse": 0,
+  "DVR": 0.16833333333333333,
+  "SRR": 0.0,
+  "RR": 0.775,
+  "rank_DVR": 0.008333333333333333,
+  "rank_SRR": 0.0,
+  "chain_fully_consistent_rate": 0.66,
+  "pairwise_flip_rate": 0.0013333333333333335
+}

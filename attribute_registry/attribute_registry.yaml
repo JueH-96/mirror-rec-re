@@ -1,0 +1,27 @@
+# Attribute registry — single source of automatic ground truth (RESEARCH_BRIEF §7.3).
+# preference_direction: 'higher' => larger raw value dominates; 'lower' => smaller dominates.
+# min_pair_gap: minimum raw-value difference for a pair to be eligible (§5.4 cond.3).
+price:
+  type: numeric
+  unit: usd
+  preference_direction: lower
+  min_pair_gap: 150
+  valid_range: [300, 4000]
+weight:
+  type: numeric
+  unit: kg
+  preference_direction: lower
+  min_pair_gap: 0.3
+  valid_range: [0.8, 3.5]
+battery_life:
+  type: numeric
+  unit: hours
+  preference_direction: higher
+  min_pair_gap: 3
+  valid_range: [4, 24]
+storage:
+  type: numeric
+  unit: gb
+  preference_direction: higher
+  min_pair_gap: 256
+  valid_range: [128, 4096]

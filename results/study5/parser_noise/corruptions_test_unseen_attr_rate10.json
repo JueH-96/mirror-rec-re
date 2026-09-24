@@ -1,0 +1,566 @@
+{
+"S3UA00001|T1|3": {
+"kind": "level",
+"level": 2
+},
+"S3UA00002|T1|4": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00003|T1|2": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00007|T1|3": {
+"kind": "level",
+"level": 4
+},
+"S3UA00007|T2|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00010|T2|1": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00012|T2|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00013|T1|3": {
+"kind": "level",
+"level": 4
+},
+"S3UA00015|T2|2": {
+"kind": "level",
+"level": 3
+},
+"S3UA00017|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00017|T2|2": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00020|T1|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00022|T2|2": {
+"kind": "level",
+"level": 3
+},
+"S3UA00025|T1|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00026|T1|2": {
+"kind": "level",
+"level": 3
+},
+"S3UA00026|T2|4": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00027|T1|2": {
+"kind": "level",
+"level": 3
+},
+"S3UA00027|T2|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00028|T1|3": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00032|T2|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00032|T2|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00033|T2|1": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00033|T2|3": {
+"kind": "level",
+"level": 2
+},
+"S3UA00035|T2|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00035|T2|3": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00036|T1|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00040|T1|3": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00040|T1|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00041|T2|2": {
+"kind": "level",
+"level": 3
+},
+"S3UA00044|T1|4": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00046|T2|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00047|T2|3": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00051|T2|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00052|T1|3": {
+"kind": "level",
+"level": 2
+},
+"S3UA00053|T2|2": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00055|T2|2": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00056|T2|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00057|T1|2": {
+"kind": "level",
+"level": 3
+},
+"S3UA00058|T2|4": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00059|T1|1": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00059|T1|2": {
+"kind": "level",
+"level": 3
+},
+"S3UA00059|T2|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00062|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00063|T1|3": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00065|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00067|T2|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00068|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00071|T2|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00072|T1|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00073|T1|3": {
+"kind": "level",
+"level": 4
+},
+"S3UA00075|T2|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00075|T2|3": {
+"kind": "level",
+"level": 4
+},
+"S3UA00076|T1|3": {
+"kind": "level",
+"level": 4
+},
+"S3UA00076|T1|4": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00078|T1|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00081|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00082|T2|2": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00082|T2|3": {
+"kind": "level",
+"level": 2
+},
+"S3UA00084|T1|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00084|T2|2": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00085|T2|4": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00086|T2|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00086|T2|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00087|T2|1": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00088|T1|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00091|T2|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00091|T2|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00092|T1|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00094|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00103|T2|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00104|T2|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00105|T1|2": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00105|T2|3": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00108|T1|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00109|T1|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00109|T1|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00110|T1|3": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00111|T2|2": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00116|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00117|T2|3": {
+"kind": "level",
+"level": 4
+},
+"S3UA00121|T1|2": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00125|T1|2": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00128|T1|1": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00128|T2|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00129|T2|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00129|T2|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00131|T1|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00131|T2|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00133|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00134|T2|4": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00135|T2|1": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00135|T2|3": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00136|T1|3": {
+"kind": "level",
+"level": 2
+},
+"S3UA00137|T2|1": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00138|T1|3": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00138|T2|2": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00139|T1|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00139|T2|4": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00141|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00141|T1|2": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00142|T1|4": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00143|T1|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00143|T1|3": {
+"kind": "level",
+"level": 2
+},
+"S3UA00143|T2|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00145|T2|2": {
+"kind": "level",
+"level": 3
+},
+"S3UA00148|T1|4": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00149|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00150|T2|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00151|T2|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00156|T1|3": {
+"kind": "level",
+"level": 4
+},
+"S3UA00156|T1|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00160|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00165|T1|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00165|T2|2": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00167|T2|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00167|T2|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00169|T1|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00170|T2|3": {
+"kind": "level",
+"level": 2
+},
+"S3UA00172|T2|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00173|T1|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00175|T2|2": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00178|T1|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00181|T1|1": {
+"kind": "level",
+"level": 2
+},
+"S3UA00181|T2|1": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00181|T2|2": {
+"kind": "level",
+"level": 3
+},
+"S3UA00182|T2|1": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00184|T2|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00184|T2|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00186|T1|2": {
+"kind": "level",
+"level": 1
+},
+"S3UA00187|T1|1": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00189|T2|1": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00191|T1|4": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00191|T2|3": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00192|T1|3": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00192|T1|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00193|T2|2": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3UA00194|T2|3": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3UA00195|T2|4": {
+"kind": "level",
+"level": 3
+},
+"S3UA00197|T1|3": {
+"kind": "level",
+"level": 4
+},
+"S3UA00198|T2|4": {
+"kind": "attr",
+"attr": "price"
+},
+"S3UA00199|T1|2": {
+"kind": "level",
+"level": 3
+}
+}

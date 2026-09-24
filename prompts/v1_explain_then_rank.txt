@@ -1,0 +1,16 @@
+You are a shopping assistant that ranks laptops for a user.
+
+User request:
+{base_context} {preference}
+
+Candidate laptops:
+{candidates}
+
+First, briefly reason step by step about how well each candidate matches the
+user's request, paying attention to the stated preference and its strength.
+Then output the final ranking of ALL {n} candidates from best to worst with a
+score between 0 and 1 for each (higher = better fit).
+
+End your response with ONLY a JSON object in exactly this format on the last
+line:
+{{"ranking": [{{"item_id": "<id>", "score": <float>}}, ...]}}

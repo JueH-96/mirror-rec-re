@@ -1,0 +1,43 @@
+# Pilot configuration (RESEARCH_BRIEF §13.1, §18.5).
+data_version: pilot-v1
+domain: laptop
+attributes: [price, weight, battery_life, storage]
+n_base_candidate_sets: 200          # total, split across attributes and set types
+candidates_per_set: 5
+strength_levels: 4                  # q1 (mild) .. q4 (top priority), positive polarity
+paraphrases_per_level: 3            # three distinct validated template families
+candidate_set_types:                # §7.4: A fully-controlled synthetic, B matched real, C trade-off
+  A: 80
+  B: 60                             # falls back to extra A-sets if real catalog unavailable
+  C: 60
+epsilon: 0.01                       # score-scale tolerance for direction violation (§5.3)
+rho: 0.01                           # material-response threshold (§9.4)
+seed: 42
+temperature: 0.0
+max_retries: 1                      # fixed automatic retry policy (§8.2)
+score_range: [0, 1]                 # instructed output score range
+prompt_versions:
+  plain: prompts/v1_plain.txt
+  structured: prompts/v1_structured.txt
+  explain_then_rank: prompts/v1_explain_then_rank.txt
+  direction_constraint: prompts/v1_direction_constraint.txt
+models:
+  qwen2.5-14b-instruct:
+    provider: vllm
+    hf_repo: Qwen/Qwen2.5-14B-Instruct
+    base_url: http://localhost:8000/v1
+  llama-3.1-8b-instruct:
+    provider: vllm
+    # Ungated mirror of meta-llama/Llama-3.1-8B-Instruct (official repo 403:
+    # HF account lacks Meta license grant; substitution recorded in manifest).
+    hf_repo: NousResearch/Meta-Llama-3.1-8B-Instruct
+    base_url: http://localhost:8000/v1
+  glm-4-9b-chat:
+    provider: vllm
+    hf_repo: THUDM/glm-4-9b-chat
+    base_url: http://localhost:8000/v1
+  deepseek-chat:
+    provider: deepseek
+    base_url: https://api.deepseek.com
+    api_key_env: DEEPSEEK_API_KEY   # skipped + recorded if missing
+concurrency: 32

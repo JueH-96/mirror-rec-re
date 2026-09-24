@@ -1,0 +1,15 @@
+ckpt_every: 250
+exp_dir: study6
+grad_accum: 4
+l_chain: 0.5
+l_icr: 1.0
+l_rec: 1.0
+levels: [1, 2, 4]
+lora_r: 16
+lr: 0.0001
+max_steps: 1500
+mode: base
+model_name: NousResearch/Meta-Llama-3.1-8B-Instruct
+run_name: S7c_llama_seed1043
+seed: 1043
+system: S7c

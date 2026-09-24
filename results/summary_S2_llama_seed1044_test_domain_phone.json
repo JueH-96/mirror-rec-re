@@ -1,0 +1,13 @@
+{
+  "model": "S2_llama_seed1044",
+  "variant": "test_domain_phone",
+  "n_chains_evaluated": 300,
+  "n_chains_dropped_parse": 0,
+  "DVR": 0.0044444444444444444,
+  "SRR": 0.0,
+  "RR": 0.9955555555555555,
+  "rank_DVR": 0.02666666666666667,
+  "rank_SRR": 0.0,
+  "chain_fully_consistent_rate": 0.9866666666666667,
+  "pairwise_flip_rate": 0.023111111111111107
+}

@@ -1,0 +1,12 @@
+{
+  "rows": 1303,
+  "source": "laptop_price.csv public mirror",
+  "attributes_available": [
+    "price",
+    "weight",
+    "storage"
+  ],
+  "attributes_missing": [
+    "battery_life"
+  ]
+}

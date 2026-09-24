@@ -1,0 +1,75 @@
+{
+  "suggested_thresholds": {
+    "dvr_nontrivial": 0.02,
+    "dvr_near_zero": 0.01,
+    "parse_fail_max": 0.1
+  },
+  "conditions": {
+    "1_nontrivial_dvr_two_families": {
+      "dvr_plain_by_model": {
+        "glm-4-9b-chat": 0.03496503496503497,
+        "llama-3.1-8b-instruct": 0.12387791741472172,
+        "qwen2.5-14b-instruct": 0.08244994110718493
+      },
+      "n_models_above_threshold": 3,
+      "evidence_met": true
+    },
+    "2_persists_unseen_wording": {
+      "dvr_plain_by_family": {
+        "glm-4-9b-chat|T1": 0.0349,
+        "glm-4-9b-chat|T2": 0.0386,
+        "glm-4-9b-chat|T3": 0.0314,
+        "llama-3.1-8b-instruct|T1": 0.1297,
+        "llama-3.1-8b-instruct|T2": 0.1405,
+        "llama-3.1-8b-instruct|T3": 0.1016,
+        "qwen2.5-14b-instruct|T1": 0.0758,
+        "qwen2.5-14b-instruct|T2": 0.0975,
+        "qwen2.5-14b-instruct|T3": 0.0741
+      },
+      "held_out_family": "T3",
+      "evidence_met": true
+    },
+    "3_prompt_only_insufficient": {
+      "min_dvr_across_variants_by_model": {
+        "glm-4-9b-chat": 0.035,
+        "llama-3.1-8b-instruct": 0.1121,
+        "qwen2.5-14b-instruct": 0.0824
+      },
+      "evidence_met": true
+    },
+    "4_not_format_artifact": {
+      "parse_failure_share_by_model": {
+        "qwen2.5-14b-instruct": 0.0044,
+        "llama-3.1-8b-instruct": 0.0149,
+        "glm-4-9b-chat": 0.0003
+      },
+      "evidence_met": true
+    },
+    "5_preliminary_method_reduces_dvr": {
+      "status": "not_assessed",
+      "reason": "Study 3+ scope; pilot covers Study 1/2 only per user instruction"
+    },
+    "6_responsiveness_no_collapse": {
+      "status": "not_assessed",
+      "reason": "Study 3+ scope; pilot covers Study 1/2 only per user instruction"
+    },
+    "7_utility_loss_within_budget": {
+      "status": "not_assessed",
+      "reason": "Study 3+ scope; pilot covers Study 1/2 only per user instruction"
+    },
+    "8_persists_real_items": {
+      "dvr_plain_type_B_by_model": {
+        "glm-4-9b-chat": 0.0526,
+        "llama-3.1-8b-instruct": 0.1922,
+        "qwen2.5-14b-instruct": 0.1298
+      },
+      "n_chains_type_B": 38,
+      "scope_note": "type-B covers price/weight/storage (real catalog lacks battery_life)",
+      "evidence_met": true
+    }
+  },
+  "rule_baseline_sanity": {
+    "DVR": 0.0,
+    "expected": 0.0
+  }
+}

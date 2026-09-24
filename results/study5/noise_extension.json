@@ -1,0 +1,140 @@
+{
+ "_src": "S0_llama",
+ "_note": "S1-style projection under parser noise; violations measured against true chains; rate 0 = clean",
+ "test_main": {
+  "0": {
+   "n_true_chains": 696,
+   "unprojectable_chain_share": 0.0,
+   "DVR_before": 0.2035,
+   "DVR_after_projection": 0.0,
+   "SRR_before": 0.0369,
+   "SRR_after_projection": 0.0
+  },
+  "5": {
+   "n_true_chains": 696,
+   "unprojectable_chain_share": 0.1724,
+   "DVR_before": 0.2035,
+   "DVR_after_projection": 0.0374,
+   "SRR_before": 0.0369,
+   "SRR_after_projection": 0.0053
+  },
+  "10": {
+   "n_true_chains": 696,
+   "unprojectable_chain_share": 0.3434,
+   "DVR_before": 0.2035,
+   "DVR_after_projection": 0.0738,
+   "SRR_before": 0.0369,
+   "SRR_after_projection": 0.0134
+  },
+  "20": {
+   "n_true_chains": 696,
+   "unprojectable_chain_share": 0.5618,
+   "DVR_before": 0.2035,
+   "DVR_after_projection": 0.1183,
+   "SRR_before": 0.0369,
+   "SRR_after_projection": 0.0201
+  }
+ },
+ "val": {
+  "0": {
+   "n_true_chains": 361,
+   "unprojectable_chain_share": 0.0,
+   "DVR_before": 0.1958,
+   "DVR_after_projection": 0.0,
+   "SRR_before": 0.0249,
+   "SRR_after_projection": 0.0
+  },
+  "5": {
+   "n_true_chains": 361,
+   "unprojectable_chain_share": 0.2078,
+   "DVR_before": 0.1958,
+   "DVR_after_projection": 0.0425,
+   "SRR_before": 0.0249,
+   "SRR_after_projection": 0.0046
+  },
+  "10": {
+   "n_true_chains": 361,
+   "unprojectable_chain_share": 0.3019,
+   "DVR_before": 0.1958,
+   "DVR_after_projection": 0.0526,
+   "SRR_before": 0.0249,
+   "SRR_after_projection": 0.0055
+  },
+  "20": {
+   "n_true_chains": 361,
+   "unprojectable_chain_share": 0.5623,
+   "DVR_before": 0.1958,
+   "DVR_after_projection": 0.1034,
+   "SRR_before": 0.0249,
+   "SRR_after_projection": 0.012
+  }
+ },
+ "test_unseen_word": {
+  "0": {
+   "n_true_chains": 349,
+   "unprojectable_chain_share": 0.0,
+   "DVR_before": 0.1796,
+   "DVR_after_projection": 0.0,
+   "SRR_before": 0.0306,
+   "SRR_after_projection": 0.0
+  },
+  "5": {
+   "n_true_chains": 349,
+   "unprojectable_chain_share": 0.1891,
+   "DVR_before": 0.1796,
+   "DVR_after_projection": 0.0382,
+   "SRR_before": 0.0306,
+   "SRR_after_projection": 0.0086
+  },
+  "10": {
+   "n_true_chains": 349,
+   "unprojectable_chain_share": 0.3037,
+   "DVR_before": 0.1796,
+   "DVR_after_projection": 0.0525,
+   "SRR_before": 0.0306,
+   "SRR_after_projection": 0.0076
+  },
+  "20": {
+   "n_true_chains": 349,
+   "unprojectable_chain_share": 0.5587,
+   "DVR_before": 0.1796,
+   "DVR_after_projection": 0.0907,
+   "SRR_before": 0.0306,
+   "SRR_after_projection": 0.0134
+  }
+ },
+ "test_unseen_attr": {
+  "0": {
+   "n_true_chains": 364,
+   "unprojectable_chain_share": 0.0,
+   "DVR_before": 0.1419,
+   "DVR_after_projection": 0.0,
+   "SRR_before": 0.0339,
+   "SRR_after_projection": 0.0
+  },
+  "5": {
+   "n_true_chains": 364,
+   "unprojectable_chain_share": 0.2005,
+   "DVR_before": 0.1419,
+   "DVR_after_projection": 0.0266,
+   "SRR_before": 0.0339,
+   "SRR_after_projection": 0.0082
+  },
+  "10": {
+   "n_true_chains": 364,
+   "unprojectable_chain_share": 0.3022,
+   "DVR_before": 0.1419,
+   "DVR_after_projection": 0.0348,
+   "SRR_before": 0.0339,
+   "SRR_after_projection": 0.0046
+  },
+  "20": {
+   "n_true_chains": 364,
+   "unprojectable_chain_share": 0.5577,
+   "DVR_before": 0.1419,
+   "DVR_after_projection": 0.0788,
+   "SRR_before": 0.0339,
+   "SRR_after_projection": 0.0192
+  }
+ }
+}

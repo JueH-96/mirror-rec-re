@@ -1,0 +1,72 @@
+{
+  "splits": {
+    "test_unseen_item": {
+      "n_sets": 200,
+      "n_eligible": 195,
+      "ineligible_reasons_count": {
+        "out_of_range": 5
+      },
+      "n_specs": 1600,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ],
+      "attributes": [
+        "battery_life",
+        "price",
+        "weight"
+      ]
+    },
+    "test_domain_phone": {
+      "n_sets": 150,
+      "n_eligible": 150,
+      "ineligible_reasons_count": {},
+      "n_specs": 1200,
+      "n_rejected_specs": 0,
+      "families": [
+        "T1",
+        "T2"
+      ],
+      "attributes": [
+        "battery_life",
+        "price",
+        "weight"
+      ]
+    },
+    "test_t4_word": {
+      "n_sets": 400,
+      "n_eligible": 380,
+      "ineligible_reasons_count": {
+        "out_of_range": 20
+      },
+      "n_specs": 1600,
+      "n_rejected_specs": 0,
+      "families": [
+        "T4"
+      ],
+      "attributes": [
+        "battery_life",
+        "price",
+        "weight"
+      ]
+    }
+  },
+  "leakage_checks": {
+    "t4_eligibility_equals_study3_test_main": true,
+    "item_ids_test_unseen_item_vs_study3_disjoint": true,
+    "item_ids_test_unseen_item_vs_pilot_disjoint": true,
+    "context_test_unseen_item_vs_study3_disjoint": true,
+    "context_test_unseen_item_vs_pilot_disjoint": true,
+    "item_ids_test_domain_phone_vs_study3_disjoint": true,
+    "item_ids_test_domain_phone_vs_pilot_disjoint": true,
+    "context_test_domain_phone_vs_study3_disjoint": true,
+    "context_test_domain_phone_vs_pilot_disjoint": true,
+    "unseen_item_b_rows_disjoint_from_study3": true,
+    "t4_calibration_passed": true,
+    "t4_unseen_certificate": true,
+    "phone_catalog_qualification_passed": true,
+    "seed_domain_disjoint": true
+  },
+  "fatal": []
+}

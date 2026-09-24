@@ -1,0 +1,71 @@
+{
+  "qwen2.5-14b-instruct": {
+    "n_chains": 566,
+    "DVR_before": 0.0824,
+    "DVR_after": 0.0,
+    "SRR_before": 0.0029,
+    "SRR_after": 0.0,
+    "RR_before": 0.4075,
+    "RR_after": 0.4022,
+    "chains_adjusted_share": 0.2456,
+    "binding_constraint_share": 0.5978,
+    "newly_flattened_transition_share": 0.0919,
+    "NDCG5_before": 0.9968,
+    "NDCG5_after": 0.9964,
+    "mean_abs_focal_rank_shift": 0.0479,
+    "mean_kendall_tau_pre_post": 0.964,
+    "solve_time_s_total": 0.102,
+    "solve_time_ms_per_chain": 0.181,
+    "staticness": {
+      "identical_ranking_chain_share": 0.7138,
+      "DVR_on_responsive_chains_only": 0.1337,
+      "n_responsive_chains": 162
+    }
+  },
+  "llama-3.1-8b-instruct": {
+    "n_chains": 557,
+    "DVR_before": 0.1239,
+    "DVR_after": 0.0,
+    "SRR_before": 0.0096,
+    "SRR_after": 0.0,
+    "RR_before": 0.3704,
+    "RR_after": 0.3573,
+    "chains_adjusted_share": 0.3662,
+    "binding_constraint_share": 0.6332,
+    "newly_flattened_transition_share": 0.1412,
+    "NDCG5_before": 0.9907,
+    "NDCG5_after": 0.9897,
+    "mean_abs_focal_rank_shift": 0.0375,
+    "mean_kendall_tau_pre_post": 0.9864,
+    "solve_time_s_total": 0.101,
+    "solve_time_ms_per_chain": 0.182,
+    "staticness": {
+      "identical_ranking_chain_share": 0.6158,
+      "DVR_on_responsive_chains_only": 0.148,
+      "n_responsive_chains": 214
+    }
+  },
+  "glm-4-9b-chat": {
+    "n_chains": 572,
+    "DVR_before": 0.035,
+    "DVR_after": 0.0,
+    "SRR_before": 0.0082,
+    "SRR_after": 0.0,
+    "RR_before": 0.1911,
+    "RR_after": 0.1882,
+    "chains_adjusted_share": 0.1014,
+    "binding_constraint_share": 0.8118,
+    "newly_flattened_transition_share": 0.0379,
+    "NDCG5_before": 0.9888,
+    "NDCG5_after": 0.9887,
+    "mean_abs_focal_rank_shift": 0.012,
+    "mean_kendall_tau_pre_post": 0.994,
+    "solve_time_s_total": 0.102,
+    "solve_time_ms_per_chain": 0.178,
+    "staticness": {
+      "identical_ranking_chain_share": 0.5017,
+      "DVR_on_responsive_chains_only": 0.0667,
+      "n_responsive_chains": 285
+    }
+  }
+}

@@ -1,0 +1,374 @@
+# Experiment manifest (RESEARCH_BRIEF §18.5)
+go_no_go_decision:
+  decision: GO
+  decided_by: user (final ruling)
+  date: "2026-07-28"
+  basis: >
+    All 8 §13.2 Go conditions met under user-confirmed thresholds
+    (dvr_nontrivial>0.02, dvr_near_zero<0.01, parse_fail_max<0.10); zero §13.3
+    No-Go conditions triggered. Conditions 1-4,8 from Study 1/2 main runs
+    (reports/gonogo_report.md v2); conditions 5-7 from isotonic-projection
+    pre-experiment on cached outputs (results/projection_results.json).
+  study3_requirements_from_user:
+    - post-hoc projection (baseline 12) is a mandatory strong baseline throughout;
+      training-method value proposition targets scenarios where projection is
+      unavailable/unreliable (unseen wording, unseen attributes, parser noise; bridges Study 4)
+    - responsiveness monitored per §6.4 in all runs; DVR gains accompanied by RR
+      collapse must be flagged (GLM low-magnitude-response pattern)
+    - experiments/study3_plan.md requires user review BEFORE training starts (checkpoint)
+    - continue: stage commits+push, call caching, failure retention, GPU 1 only
+
+# --- Pilot (Study 1 + Study 2) ---
+pilot:
+  date_started: "2026-07-28"
+  data_version: pilot-v1
+  candidate_sets_sha256: d56c45243c54022ea01588aa637bdbd094684f56c26df6e1fbf204996edf3481
+  config: configs/pilot.yaml
+  seed: 42
+  temperature: 0.0
+  intervention_levels: 4
+  paraphrase_families: [T1, T2, T3]
+  attribute_thresholds: attribute_registry/attribute_registry.yaml
+  candidate_set_types: {A: 80, B_real: 45, C: 60, B_fallback_synthetic: 15}
+  eligible_sets: 191
+  epsilon: 0.01
+  rho: 0.01
+  # Pilot decision thresholds CONFIRMED by user 2026-07-28 as final for this
+  # pilot's Go/No-Go operationalization (supersedes "suggested" status in
+  # results/gonogo_precheck.json):
+  confirmed_thresholds:
+    dvr_nontrivial: 0.02      # condition 1/2/8: non-trivial DVR floor
+    dvr_near_zero: 0.01       # condition 3: prompt-only must reach below this to count as "solved"
+    parse_fail_max: 0.10      # condition 4: format-failure ceiling
+  prompt_versions:
+    plain: prompts/v1_plain.txt
+    structured: prompts/v1_structured.txt
+    explain_then_rank: prompts/v1_explain_then_rank.txt
+    direction_constraint: prompts/v1_direction_constraint.txt
+  models:
+    qwen2.5-14b-instruct:
+      hf_repo: Qwen/Qwen2.5-14B-Instruct
+      serving: vllm 0.11.0, torch 2.8.0+cu128, transformers 4.57.1, GPU 1 (RTX 6000 Ada)
+    llama-3.1-8b-instruct:
+      hf_repo: NousResearch/Meta-Llama-3.1-8B-Instruct
+      note: >
+        Substituted ungated mirror of meta-llama/Llama-3.1-8B-Instruct;
+        official repo returned HTTP 403 (HF account lacks Meta license grant).
+        Same weights per mirror README; recorded as a deviation.
+    glm-4-9b-chat:
+      hf_repo: THUDM/glm-4-9b-chat
+    deepseek-chat:
+      status: SKIPPED
+      reason: DEEPSEEK_API_KEY not set (recorded in results/validation_report.json)
+    rule_baseline:
+      type: deterministic monotone scorer (src/candidate_generation/rule_baseline.py)
+  statistics: paired bootstrap CI (clustered by chain), paired permutation + Holm,
+    epsilon sensitivity grid (src/statistics/analyze.py)
+  deviations:
+    - "type-B real pairs cover price/weight/storage only; real catalog lacks battery_life (15 sets fell back to synthetic, flagged A_fallback_from_B)"
+    - "cross-model code review SKIPPED (not part of this project's protocol)"
+    - "vllm pinned to 0.11.0 (torch cu128) due to driver CUDA 12.8; vllm 0.26.0 torch build incompatible"
+  environment:
+    gpu: "NVIDIA RTX 6000 Ada (GPU 1 only)"
+    driver_cuda: "570.211.01 / CUDA 12.8"
+    conda_env: mirror-rec (python 3.11)
+
+# --- Study 3 / M2 (main matrix training) ---
+study3_m2:
+  completion_criterion: >
+    M2 is complete ONLY when experiments/verify_m2_complete.py exits 0
+    (all 24 runs in configs/study3/queue_order.txt have final.pt, 4 raw eval
+    files with eligible*families*4 lines each, and 4 metrics parquets with
+    eligible*families*3 rows each). The queue's M2_QUEUE_DONE marker is NOT
+    trusted: on 2026-07-28 a disk-full cascade produced a spurious
+    M2_QUEUE_DONE at 19:57:58 with 22/24 runs failed.
+  deviations:
+    - id: fat-checkpoint-disk-exhaustion
+      date: "2026-07-28"
+      type: infrastructure incident (no result data affected)
+      timeline:
+        - "pre-incident: train.py saved full model state_dicts (~16GB each,
+          incl. frozen Llama-8B backbone); 4 fat checkpoints (S2 sanity +
+          S2_llama_seed1042) filled the 3.7T disk"
+        - "19:43 queue v1 started training S2_llama_seed1043; reached step
+          250/3000 (loss logs preserved in
+          experiments/study3/S2_llama_seed1043/train_log.attempt1_enospc.jsonl);
+          the step-250 last.pt write hit ENOSPC and was truncated at 4.4GB;
+          TRAIN_FAILED 19:57:42"
+        - "19:57:42-19:57:58 the remaining 22 queue runs (positions 3-24)
+          each failed instantly on ENOSPC; queue emitted a spurious
+          M2_QUEUE_DONE at 19:57:58"
+        - "recovery: deleted sanity checkpoints (+31G); extracted
+          trainable-only weights from S2_llama_seed1042 final.pt
+          (extract_trainable.py: 510.2MB, 452 tensors); removed redundant
+          original/ weights from the HF Llama mirror cache; 78G free after"
+        - "20:03 queue v2 relaunched; S2_llama_seed1043 immediately failed
+          again (7s) loading the truncated last.pt (PytorchStreamReader:
+          failed finding central directory); corrupt file removed, resume
+          path hardened, run deferred to a catch-up queue pass"
+      affected_runs: "queue positions 2-24 (S2_llama_seed1043 through
+        S8_qwen_seed1042); S2_llama_seed1042 and all M0/M1 artifacts intact"
+      s2_seed1042_checkpoint_extraction_verification: >
+        Before deleting the 16GB original, spotcheck_ckpt.py loaded the
+        510MB trainable-only checkpoint into a fresh RerankScorer and
+        re-scored val chain levels against the recorded scores in
+        results/study3/raw/S2_llama_seed1042/val.jsonl: max abs diff 0.0
+        (bit-exact). SPOTCHECK PASS.
+      s2_seed1043_retrain: >
+        Trained FROM SCRATCH in the catch-up pass (no state reused from the
+        interrupted attempt; the step-250 checkpoint was corrupt and
+        discarded). Seed/config identical to the original plan, so the run
+        is statistically equivalent to the other seeds; it differs only in
+        wall-clock history (one discarded 250-step attempt, logs kept as
+        train_log.attempt1_enospc.jsonl). No other run in the matrix has an
+        interruption history.
+      checkpoint_policy_change: >
+        train.py commit after incident: (1) checkpoints now save only
+        trainable params (LoRA adapters + score heads + monotone params,
+        ~487MB on disk) via trainable_state(), never the frozen backbone;
+        (2) last.pt is deleted once final.pt is written (per-run steady
+        footprint 487MB vs 16GB before); (3) resume tolerates a corrupt
+        last.pt by renaming it to .pt.corrupt (evidence retained) and
+        training from scratch instead of crashing. Git: *.pt globally
+        ignored; fat blobs never reached the remote (GitHub 100MB limit
+        rejected the push); local history rewritten (reset --soft 525265f)
+        before the clean push da8984f.
+      git_state_after: "remote clean (git ls-files reports 0 *.pt); queue
+        v2 auto-commits per completed run"
+  review_decisions:
+    date: "2026-07-31"
+    decided_by: user (M2 main-matrix review)
+    rulings:
+      - "H3 preregistered verdict recorded as NOT SUPPORTED (effect-size
+        condition met in only 1/5 comparisons: S7 vs S5). Must not be
+        restated as partially/substantively supported. Floor effect
+        (S2 already at 0.21% DVR, no 2pp headroom) may appear in the M3
+        discussion ONLY as an explicitly labeled post-hoc explanation."
+      - "M3 narrative re-centered on three empirical lines: (a) zero-shot
+        directional violations are severe (20.4% llama / 10.9% qwen
+        test_main) and prompt-unfixable (pilot); (b) relational-oracle
+        supervision near-eliminates violations in-distribution, and
+        directional objectives (S7/S8) hold zero DVR on unseen attributes
+        where S2 degrades with seed instability; (c) the non-directional
+        consistency regularizer (S5) backfires and triggers responsiveness
+        collapse - directionality is a non-substitutable objective property."
+      - "Parser-noise axis: EXECUTE per plan section 0/P2 (5/10/20 percent
+        strength off-by-one / attribute-confusion injection); this is the
+        key evidence axis for the S7/S8-vs-S1(projection) value proposition."
+      - "Reinforced unseen-wording-family test: permitted but must be
+        labeled exploratory (not preregistered) and excluded from the main
+        evidence chain."
+      - "New pre-M3 check required: per-system DVR decomposition on B-class
+        (real-item) chains + score-margin distributions on test_main
+        (results/study3/bclass_margin_report.json); stop for user review
+        after this check, before M3 writing."
+study4:
+  plan: experiments/study4_plan.md
+  plan_approved: "2026-08-03 (user approved reports/study4_7_plan_draft.md;
+    study3 report accepted with no corrections)"
+  review_decisions:
+    date: "2026-08-03"
+    decided_by: user (Study 4-7 draft approval)
+    rulings:
+      - "(a) 4c unseen-strength retrains start with 1 seed (1042); if the
+        axis shows clear system separation AND is selected as the second
+        evaluation surface for Study 6/7, backfill to 3 seeds before any
+        conclusive claim."
+      - "(b) 4d second domain uses a REAL phone dataset; catalog must pass
+        the M0-style qualification gate and min_pair_gap checks; data
+        source and license recorded in this manifest."
+      - "(c) T4 reinforced unseen-wording family runs together with Study
+        4a, keeping its exploratory (non-preregistered) status and the
+        calibration-first gate (calibration failure => report failure only)."
+      - "(d) qwen coverage: Study 6 key axes (candidate order, fixed-order
+        collapse, near-tied) add qwen seed1042 confirmation; Study 7
+        ablations Llama-only, recorded as a limitation."
+    execution_order: "study4 -> study6 -> study7 -> study5 (per draft);
+      long-running segments as independent processes, per-stage commit/push,
+      resumable."
+  m0_data:
+    date: "2026-08-03"
+    splits:
+      test_unseen_item: {sets: 200, eligible: 195, prefix: S4NI, seed: 20260803,
+        b_rows_policy: "651/1303 laptop catalog rows excluded (appeared in a
+          Study 3 B-type item, matched on (price,weight,storage) triple);
+          verified disjoint by validate_study4.py"}
+      test_domain_phone: {sets: 150, eligible: 150, prefix: S4PH, seed: 20260804,
+        registry: attribute_registry/attribute_registry_phones.yaml}
+      test_t4_word: {sets: "reuses study3 test_main (380 eligible)",
+        family: T4, status: "exploratory, calibration gate PASSED
+          (roundtrip + unseen certificate + zero cross-family collision;
+          results/study4/t4_calibration.json); 4-level ladder pending human
+          monotonicity review at M3 stop"}
+    phone_catalog:
+      file: data_processed/real_phones.csv
+      rows: 820
+      source_mirror: "https://raw.githubusercontent.com/shaiful019/MachineLearningWithPython/master/Sessions/Day11/LR/regression_mobile_price.csv"
+      upstream: "GSMArena Phone Dataset (arwinneil), kaggle.com/datasets/arwinneil/gsmarena-phone-dataset; specs scraped from GSMArena.com"
+      license: "no explicit dataset license on mirror; arwinneil scraper repo
+        is MIT; underlying specs (c) GSMArena.com - research/evaluation use
+        only, flagged for user review at M3 stop"
+      access_date: "2026-08-03"
+      qualification: "PASSED (820 rows >= 300; eligible pairs per attribute
+        144k-233k >= 500; data_processed/phone_catalog_meta.json)"
+  m3_review:
+    date: "2026-08-04"
+    decided_by: user (Study 4 report approval)
+    verdict: "Study 4 report accepted; H4 NOT SUPPORTED recorded as-is."
+    rulings:
+      - "(1) T4 4-level ladder PASSED human monotonicity review: the four
+        surfaces form a monotonically increasing preference-strength scale.
+        T4 calibration is now fully closed (3 mechanical checks + human
+        check)."
+      - "(2) Phone catalog license accepted as-is: research/evaluation use
+        only; paper must cite the upstream source (GSMArena Phone Dataset,
+        arwinneil); the reproducibility package must NOT redistribute the
+        catalog data itself, only the rebuild path (ingest script + source
+        URL); recorded here and to be carried into limitations."
+      - "(3) 4c selected as the second evaluation surface for Study 6/7;
+        per ruling (a) this triggers the 3-seed backfill (S2c/S7c/S8c
+        seeds 1043, 1044) before any conclusive claim."
+    study6_direction: "Approved: upgrade 'structural benefit lies in
+      strength-semantics OOD' from exploratory to confirmatory. (a) T4 axis
+      completion: S2/S7/S8 all 3 llama seeds + qwen confirmation, as a
+      preregistered main axis of Study 6 (new prereg, degradation-difference
+      formulation, explicitly noted as a confirmatory retest originating
+      from a Study 4 exploratory finding); (b) 4c 3-seed backfill;
+      (c) robustness axes per original draft (candidate order, distractor
+      text, near-tied, fixed-order collapse check); (d) H6 prereg DRAFT to
+      user for review before it is frozen. Deliverable: study6_plan.md,
+      then stop."
+study6:
+  plan: experiments/study6_plan.md
+  plan_frozen: "2026-08-04 (user ruled on all four open items of the H6
+    draft; plan frozen before any Study 6 data collection)"
+  review_decisions:
+    date: "2026-08-04"
+    decided_by: user (H6 draft review)
+    rulings:
+      - "(1) 6b effect gate = 1pp; endpoint stays pooled unseen transitions
+        (2->3 and 3->4). Threshold justified under a pilot-sets-threshold
+        framework: the Study 4 1-seed 4c run is this axis's pilot; gate =
+        ~2/3 of the pilot point estimate (1.5pp) leaving margin; timestamp
+        and basis declared (set 2026-08-04, before 3-seed backfill data
+        collection); this is standard power design from pilot data, not
+        post-hoc accommodation."
+      - "(2) Restore the within-chain mixed-family paraphrase check and the
+        secondary-attribute conflict check; both enter H6-R (secondary).
+        The mixed-family axis is directly tied to the T4/main narrative and
+        must be done; the conflict axis answers the expected utility-vs-
+        direction tradeoff objection."
+      - "(3) Sampling sizes accepted; near-tied 0.5x tier raised to 150
+        sets (budget allows); everything else unchanged (2x/1x tiers 100
+        sets each)."
+      - "(4) H6-R keeps its secondary status (not merged into the H6 main
+        verdict)."
+    execution: "Freeze plan, commit, then run M0->M3 directly; long-running
+      segments as independent processes with per-stage commit; M3 stops
+      with the report."
+  deviations:
+    - date: "2026-08-07"
+      type: environment_change_and_recovery
+      description: "System reboot (2026-08-04 ~15:30) briefly booted a wrong
+        kernel; GPU restored 2026-08-07 with new driver. NVIDIA driver
+        570.211.01 -> 610.43.02, CUDA 12.8 -> 13.3. torch 2.9.0+cu128
+        unchanged and verified (cuda.is_available=True, training resumed on
+        GPU 1)."
+      training_env_mapping:
+        cuda_12_8_driver_570: "all pilot/study3/study4 runs; study6 4c
+          backfill runs S2c/S7c/S8c_llama_seed1043 and S2c_llama_seed1044
+          (completed 2026-08-04 before reboot)"
+        mixed: "S7c_llama_seed1044 - steps 1-1000 trained under CUDA 12.8
+          (last.pt written 2026-08-04 15:21), steps 1001-1500 resumed
+          2026-08-07 under CUDA 13.3; correct last.pt resume verified
+          ('resumed from step 1000' in train log)"
+        cuda_13_3_driver_610: "S8c_llama_seed1044 (trained entirely
+          post-upgrade); ALL study6 M2 evaluations and vLLM sweeps"
+      incident_false_m1_marker: "During the no-GPU window (2026-08-06 16:30)
+        both chains were relaunched: M1 skipped the 4 completed runs, failed
+        S7c/S8c_llama_seed1044 in ~8s each (rc=1, torch CUDA unavailable),
+        and wrote M1_QUEUE_DONE - a false completion marker. The 2026-08-07
+        09:54 relaunch let M2 pass its gate on that stale marker and run
+        Stage-1 evals concurrently with training for ~25 min on GPU 1.
+        Response: M2 chain killed; stage log rotated to
+        experiments/logs/study6_m1_stages.log.archived-false-done-20260807
+        (audit trail retained); M2 relaunched 09:58 and now waits for the
+        genuine M1_QUEUE_DONE. Eval outputs from the contention window:
+        S2_llama_seed1042 test_order_p1 complete (800/800 rows, kept);
+        test_order_p2 partial (420 complete rows, no truncation, idempotent
+        resume will complete it). Same CUDA 13.3 env as all other M2 evals."
+      failure_log_caveat: "The two 2026-08-06 rc=1 environment-failure train
+        logs were overwritten by the 2026-08-07 relaunch (queue script
+        redirects with >); they are retained only as TRAIN_FAIL markers in
+        the archived stage log. Content was a no-GPU torch error, not a
+        model failure."
+
+# --- Study 6 order-axis special track + Study 7 / Study 5 authorization ---
+study6_order_axis:
+  diagnostic_date: "2026-08-11"
+  artifacts: [reports/study6_order_diagnostic.md, results/study6/order_diagnostic.json,
+    results/study6/order_probe.json]
+  mechanism_findings: >
+    (1) order enters representations for all trained systems; ~62-78% of raw
+    score movement is rank-irrelevant common mode; centered noise ~0.29-0.33
+    of within-set spread, similar across S2/S7/S8; (2) position-slot bias
+    explains <8% of variance - the true cause is order-composition context
+    drift under causal attention; (3) S8's advantage over S7 is attributable
+    to the Sec 6.2 decomposition: halved h_i drift (cos 0.950 vs 0.816) and,
+    decisively, the direction increment carried ~100% by the context-free
+    monotone gate g_a(l) (increment noise ~1/6 of S7's).
+  user_rulings_2026_08_11:
+    - "(b) training-time permutation augmentation enters Study 7 as a NEW
+      preregistered axis (H7-P)."
+    - "(a) inference-time multi-permutation aggregation is NOT a formal
+      evaluation axis; its offline K=5 estimates go into the discussion,
+      attributed to Permutation Self-Consistency (Tang et al., NAACL 2024),
+      with the residual-violation caveat (deployment mitigation, not a
+      conclusion repair)."
+    - "Mechanism findings above are designated paper material."
+    - "4c seed-dependence limitation added to study6 report Sec 6 (per-seed
+      diffs 0.0151/0.0020/0.0638)."
+    - "Checkpoint backup deferred (user will handle separately);
+      MIGRATION.md + environment/ locks stay as delivered."
+study7:
+  plan: experiments/study7_plan.md
+  plan_status: "APPROVED 2026-08-12 (user): Stage A + Stage B both released;
+    H7 test criteria (plan Sec 5) frozen at approval"
+  user_rulings_2026_08_12:
+    - "(1) H7-P preregistration must carry a transparency declaration (same
+      rationale as 6a): minval seed-1042 point estimates were observed
+      before the test, so H7-P is a confirmatory experiment, not blind
+      preregistration; what is frozen is the test criteria and the
+      seeds-1043/1044 replication (plan Sec 4)"
+    - "(2) after Stage B, add a NON-preregistered descriptive analysis of
+      whether permutation augmentation trades away strength-semantics OOD
+      ability: S7perm/S8perm on the T4 axis, and the 4c unseen-transition
+      face instantiated as S7cperm/S8cperm (levels {1,2,4} + order_aug,
+      3 seeds) vs S7c/S8c levels (plan Sec 5b); data needed before writing"
+    - "(3) study5 report accepted; its two conclusions (projection near
+      no-op on trained systems; single-request P1 coverage = 0) go into the
+      paper's method-necessity argument (plan Sec 8)"
+    - "execute to the stop point; long-running segments as independent
+      processes with per-stage commits"
+  stageB_selection: "ablation Stage B entry rule (plan Sec 5) applied
+    mechanically by src/statistics/study7_select.py; audit record
+    results/study7/stageA_selection.json"
+  minval_reuse: "S7perm/S8perm_seed1042 checkpoints+evals from minval are
+    reused in Stage B (same config+seed retrain would be a deterministic
+    duplicate); their observed status is covered by the plan Sec 4
+    transparency declaration"
+  pre_authorized_2026_08_11:
+    - "M0 config generation (configs/study7/, 8 configs + ablation queue)"
+    - "permutation-augmentation minimal validation (S7perm/S8perm seed1042,
+      exploratory, results not evidence; experiments/run_study7_minval.sh)"
+  code_changes: "data_module order_aug (per-visit candidate shuffle, chain-
+    shared); scorer_model g_const/g_shared ablation flags (default off);
+    GPU smoke test passed 2026-08-11 before any training"
+study5:
+  authorization: "2026-08-11 user ruling: execute fully per
+    reports/study4_7_plan_draft.md Study 5 section (pure post-processing,
+    no prereg gate); deliver report"
+  scope: "S0/S2/S7/S8 (llama 3 seeds + qwen seed1042) x 4 study3 splits:
+    pre/post projection DVR/SRR/RR, NDCG@5, focal rank shift, Kendall tau,
+    PAVA wall time, binding constraints; S1 parser-noise degradation curves
+    extended beyond test_main; single-request (P1) coverage=0 formal note"

@@ -1,0 +1,13 @@
+{
+  "model": "S8c_ablg_llama_seed1043",
+  "variant": "test_main",
+  "n_chains_evaluated": 760,
+  "n_chains_dropped_parse": 0,
+  "DVR": 0.06885964912280702,
+  "SRR": 0.0,
+  "RR": 0.8701754385964913,
+  "rank_DVR": 0.0013157894736842105,
+  "rank_SRR": 0.0,
+  "chain_fully_consistent_rate": 0.7934210526315789,
+  "pairwise_flip_rate": 0.0011403508771929826
+}

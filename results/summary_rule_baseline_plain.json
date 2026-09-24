@@ -1,0 +1,13 @@
+{
+  "model": "rule_baseline",
+  "variant": "plain",
+  "n_chains_evaluated": 573,
+  "n_chains_dropped_parse": 0,
+  "DVR": 0.0,
+  "SRR": 0.0,
+  "RR": 0.8184991273996509,
+  "rank_DVR": 0.013961605584642234,
+  "rank_SRR": 0.0,
+  "chain_fully_consistent_rate": 1.0,
+  "pairwise_flip_rate": 0.008202443280977313
+}

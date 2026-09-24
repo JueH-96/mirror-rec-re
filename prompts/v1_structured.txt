@@ -1,0 +1,15 @@
+You are a shopping assistant that ranks laptops for a user.
+
+User profile (structured):
+- Base need: {base_context}
+- Stated preference: {preference}
+- Preference applies to exactly one attribute; all other requirements are unchanged.
+
+Candidate laptops (structured attributes):
+{candidates}
+
+Task: rank ALL {n} candidates from best to worst for this user. Weigh the
+stated preference against each candidate's actual attribute values. Assign
+each candidate a score between 0 and 1 (higher = better fit). Respond with
+ONLY a JSON object in exactly this format, no other text:
+{{"ranking": [{{"item_id": "<id>", "score": <float>}}, ...]}}

@@ -1,0 +1,13 @@
+{
+  "model": "S5_llama_seed1043",
+  "variant": "test_unseen_attr",
+  "n_chains_evaluated": 390,
+  "n_chains_dropped_parse": 0,
+  "DVR": 0.25982905982905985,
+  "SRR": 0.0,
+  "RR": 0.28717948717948716,
+  "rank_DVR": 0.01623931623931624,
+  "rank_SRR": 0.0,
+  "chain_fully_consistent_rate": 0.3487179487179487,
+  "pairwise_flip_rate": 0.004358974358974359
+}

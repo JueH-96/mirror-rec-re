@@ -1,0 +1,550 @@
+{
+"S3TE00003|T3|3": {
+"kind": "level",
+"level": 2
+},
+"S3TE00006|T3|4": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00008|T3|2": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00016|T3|3": {
+"kind": "level",
+"level": 4
+},
+"S3TE00017|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00023|T3|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00027|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00029|T3|3": {
+"kind": "level",
+"level": 4
+},
+"S3TE00033|T3|2": {
+"kind": "level",
+"level": 3
+},
+"S3TE00036|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00037|T3|2": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00042|T3|1": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00047|T3|2": {
+"kind": "level",
+"level": 3
+},
+"S3TE00053|T3|1": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00055|T3|2": {
+"kind": "level",
+"level": 3
+},
+"S3TE00056|T3|4": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00057|T3|2": {
+"kind": "level",
+"level": 3
+},
+"S3TE00058|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00059|T3|3": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00068|T3|1": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00068|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00070|T3|1": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00070|T3|3": {
+"kind": "level",
+"level": 2
+},
+"S3TE00074|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00074|T3|3": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00076|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00084|T3|3": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00084|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00087|T3|2": {
+"kind": "level",
+"level": 3
+},
+"S3TE00094|T3|4": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00099|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00101|T3|3": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00109|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00110|T3|3": {
+"kind": "level",
+"level": 2
+},
+"S3TE00113|T3|2": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00117|T3|2": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00119|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00120|T3|2": {
+"kind": "level",
+"level": 3
+},
+"S3TE00123|T3|4": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00124|T3|1": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00124|T3|2": {
+"kind": "level",
+"level": 3
+},
+"S3TE00125|T3|1": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00128|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00130|T3|3": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00134|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00139|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00140|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00147|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00148|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00150|T3|3": {
+"kind": "level",
+"level": 4
+},
+"S3TE00155|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00155|T3|3": {
+"kind": "level",
+"level": 4
+},
+"S3TE00156|T3|3": {
+"kind": "level",
+"level": 4
+},
+"S3TE00156|T3|4": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00160|T3|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00168|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00171|T3|2": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00171|T3|3": {
+"kind": "level",
+"level": 2
+},
+"S3TE00174|T3|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00175|T3|2": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00177|T3|4": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00179|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00179|T3|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00181|T3|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00182|T3|1": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00190|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00190|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00191|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00195|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00214|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00216|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00217|T3|2": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00218|T3|3": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00221|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00223|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00223|T3|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00225|T3|3": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00228|T3|2": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00238|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00241|T3|3": {
+"kind": "level",
+"level": 4
+},
+"S3TE00248|T3|2": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00254|T3|2": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00260|T3|1": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00261|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00263|T3|1": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00263|T3|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00266|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00267|T3|1": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00270|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00273|T3|4": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00275|T3|1": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00275|T3|3": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00276|T3|3": {
+"kind": "level",
+"level": 2
+},
+"S3TE00279|T3|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00280|T3|3": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00281|T3|2": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00282|T3|3": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00283|T3|4": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00286|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00286|T3|2": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00288|T3|4": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00290|T3|1": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00290|T3|3": {
+"kind": "level",
+"level": 2
+},
+"S3TE00291|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00296|T3|2": {
+"kind": "level",
+"level": 3
+},
+"S3TE00301|T3|4": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00303|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00306|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00309|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00319|T3|3": {
+"kind": "level",
+"level": 4
+},
+"S3TE00319|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00329|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00339|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00340|T3|2": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00344|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00344|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00345|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00349|T3|3": {
+"kind": "level",
+"level": 2
+},
+"S3TE00353|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00354|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00360|T3|2": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00365|T3|1": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00371|T3|1": {
+"kind": "level",
+"level": 2
+},
+"S3TE00372|T3|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00372|T3|2": {
+"kind": "level",
+"level": 3
+},
+"S3TE00374|T3|1": {
+"kind": "attr",
+"attr": "battery_life"
+},
+"S3TE00378|T3|3": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00378|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00381|T3|2": {
+"kind": "level",
+"level": 1
+},
+"S3TE00384|T3|1": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00389|T3|1": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00392|T3|4": {
+"kind": "attr",
+"attr": "price"
+},
+"S3TE00393|T3|3": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00394|T3|3": {
+"kind": "attr",
+"attr": "storage"
+},
+"S3TE00394|T3|4": {
+"kind": "level",
+"level": 3
+},
+"S3TE00397|T3|2": {
+"kind": "attr",
+"attr": "weight"
+},
+"S3TE00399|T3|3": {
+"kind": "attr",
+"attr": "storage"
+}
+}

@@ -1,0 +1,25 @@
+{
+  "rows": 820,
+  "source_mirror": "https://raw.githubusercontent.com/shaiful019/MachineLearningWithPython/master/Sessions/Day11/LR/regression_mobile_price.csv",
+  "upstream": "GSMArena Phone Dataset (arwinneil, kaggle.com/datasets/arwinneil/gsmarena-phone-dataset); data scraped from GSMArena.com",
+  "license": "no explicit dataset license on the mirror; upstream scraper repo (github.com/arwinneil/phone-dataset) is MIT; underlying specs data (c) GSMArena.com - research/evaluation use only",
+  "access_date": "2026-08-03",
+  "unit_conversions": {
+    "price": "EUR*1.08->USD",
+    "weight": "g/1000->kg",
+    "battery_life": "mAh (capacity proxy)",
+    "storage": "GB"
+  },
+  "qualification_gate": {
+    "rows_raw": 894,
+    "rows_qualified": 820,
+    "eligible_pairs": {
+      "price": 232512,
+      "weight": 144346,
+      "battery_life": 231554,
+      "storage": 219531
+    }
+  },
+  "qualification_passed": true,
+  "failures": []
+}

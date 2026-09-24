@@ -1,0 +1,13 @@
+{
+  "model": "S8_qwen_seed1042",
+  "variant": "test_domain_phone",
+  "n_chains_evaluated": 300,
+  "n_chains_dropped_parse": 0,
+  "DVR": 0.0011111111111111111,
+  "SRR": 0.0,
+  "RR": 0.9988888888888889,
+  "rank_DVR": 0.0,
+  "rank_SRR": 0.0,
+  "chain_fully_consistent_rate": 0.9966666666666667,
+  "pairwise_flip_rate": 0.0012222222222222224
+}

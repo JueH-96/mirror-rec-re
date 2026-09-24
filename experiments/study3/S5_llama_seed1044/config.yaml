@@ -1,0 +1,12 @@
+ckpt_every: 250
+grad_accum: 4
+l_consist: 0.2
+l_rec: 1.0
+lora_r: 16
+lr: 0.0001
+max_steps: 1500
+mode: base
+model_name: NousResearch/Meta-Llama-3.1-8B-Instruct
+run_name: S5_llama_seed1044
+seed: 1044
+system: S5

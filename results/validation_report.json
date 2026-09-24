@@ -1,0 +1,44 @@
+{
+  "gates": {
+    "candidate_sets_total": 200,
+    "eligible_sets": 191,
+    "ineligible_reasons": {
+      "CS0001": [
+        "gap_below_threshold"
+      ],
+      "CS0012": [
+        "out_of_range"
+      ],
+      "CS0026": [
+        "gap_below_threshold"
+      ],
+      "CS0049": [
+        "out_of_range"
+      ],
+      "CS0073": [
+        "out_of_range"
+      ],
+      "CS0093": [
+        "out_of_range"
+      ],
+      "CS0133": [
+        "out_of_range"
+      ],
+      "CS0144": [
+        "out_of_range"
+      ],
+      "CS0185": [
+        "out_of_range"
+      ]
+    },
+    "chain_invariance_ok": true,
+    "rejected_surface_forms": 0
+  },
+  "skipped_models": [
+    {
+      "model": "deepseek-chat",
+      "reason": "env DEEPSEEK_API_KEY not set"
+    }
+  ],
+  "counts": {}
+}

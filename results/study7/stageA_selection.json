@@ -1,0 +1,81 @@
+{
+ "rule": "select iff d4c>=1pp or RR-RR_S0<-5pp or NDCG5 drop vs S8c>0.02 (plan Sec 5, frozen 2026-08-12)",
+ "reference": {
+  "run": "S8c_llama_seed1042",
+  "rate_4c": 0.0,
+  "RR": 1.0,
+  "NDCG5": 0.9943,
+  "RR_S0_llama": 0.3534
+ },
+ "ablations": {
+  "S8c_ablg": {
+   "rate_4c": 0.175,
+   "d4c_vs_S8c": 0.175,
+   "RR": 0.8518,
+   "RR_delta_vs_S0": 0.4983,
+   "RR_guardrail_trip": false,
+   "NDCG5": 0.9929,
+   "NDCG5_drop_vs_S8c": 0.0014,
+   "NDCG_guardrail_trip": false,
+   "selected": true
+  },
+  "S8c_ablga": {
+   "rate_4c": 0.002,
+   "d4c_vs_S8c": 0.002,
+   "RR": 0.9978,
+   "RR_delta_vs_S0": 0.6444,
+   "RR_guardrail_trip": false,
+   "NDCG5": 0.9954,
+   "NDCG5_drop_vs_S8c": -0.0012,
+   "NDCG_guardrail_trip": false,
+   "selected": false
+  },
+  "S8c_ablicr": {
+   "rate_4c": 0.0,
+   "d4c_vs_S8c": 0.0,
+   "RR": 1.0,
+   "RR_delta_vs_S0": 0.6466,
+   "RR_guardrail_trip": false,
+   "NDCG5": 0.997,
+   "NDCG5_drop_vs_S8c": -0.0027,
+   "NDCG_guardrail_trip": false,
+   "selected": false
+  },
+  "S8c_ablchain": {
+   "rate_4c": 0.0,
+   "d4c_vs_S8c": 0.0,
+   "RR": 1.0,
+   "RR_delta_vs_S0": 0.6466,
+   "RR_guardrail_trip": false,
+   "NDCG5": 0.9953,
+   "NDCG5_drop_vs_S8c": -0.001,
+   "NDCG_guardrail_trip": false,
+   "selected": false
+  },
+  "S8c_ablresp": {
+   "rate_4c": 0.0,
+   "d4c_vs_S8c": 0.0,
+   "RR": 1.0,
+   "RR_delta_vs_S0": 0.6466,
+   "RR_guardrail_trip": false,
+   "NDCG5": 0.9943,
+   "NDCG5_drop_vs_S8c": -0.0,
+   "NDCG_guardrail_trip": false,
+   "selected": false
+  },
+  "S8c_ablot": {
+   "rate_4c": 0.0059,
+   "d4c_vs_S8c": 0.0059,
+   "RR": 0.9952,
+   "RR_delta_vs_S0": 0.6417,
+   "RR_guardrail_trip": false,
+   "NDCG5": 0.9991,
+   "NDCG5_drop_vs_S8c": -0.0048,
+   "NDCG_guardrail_trip": false,
+   "selected": false
+  }
+ },
+ "selected": [
+  "S8c_ablg"
+ ]
+}

@@ -1,0 +1,12 @@
+You are a shopping assistant that ranks laptops for a user.
+
+User request:
+{base_context} {preference}
+
+Candidate laptops:
+{candidates}
+
+Rank ALL {n} candidates from best to worst for this user and assign each a
+score between 0 and 1 (higher = better fit). Respond with ONLY a JSON object
+in exactly this format, no other text:
+{{"ranking": [{{"item_id": "<id>", "score": <float>}}, ...]}}

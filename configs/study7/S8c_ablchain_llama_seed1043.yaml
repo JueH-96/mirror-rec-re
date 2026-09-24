@@ -1,0 +1,20 @@
+ckpt_every: 250
+exp_dir: study7
+grad_accum: 4
+l_chain: 0
+l_icr: 1.0
+l_offtarget: 0.1
+l_rec: 1.0
+l_resp: 0.3
+levels:
+- 1
+- 2
+- 4
+lora_r: 16
+lr: 0.0001
+max_steps: 1500
+mode: mirror
+model_name: NousResearch/Meta-Llama-3.1-8B-Instruct
+run_name: S8c_ablchain_llama_seed1043
+seed: 1043
+system: S8c_ablchain

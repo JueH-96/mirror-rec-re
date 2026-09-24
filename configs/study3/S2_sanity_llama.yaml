@@ -1,0 +1,11 @@
+run_name: S2_sanity_llama_seed1042
+system: S2
+model_name: NousResearch/Meta-Llama-3.1-8B-Instruct
+mode: base
+seed: 1042
+lr: 1.0e-4
+lora_r: 16
+grad_accum: 4
+max_steps: 500
+ckpt_every: 100
+l_rec: 1.0

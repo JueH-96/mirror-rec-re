@@ -1,0 +1,88 @@
+{
+ "plan": "experiments/study7_plan.md Sec 5 (frozen 2026-08-12)",
+ "transparency": "H7 is confirmatory retesting, NOT blind preregistration: Stage A ablation point estimates (seed 1042) and the minval permutation-augmentation point estimates (seed 1042, order-axis improvements 19.0/24.0pp) were observed before these tests were run; frozen content = test criteria + the seeds-1043/1044 replication (plan Sec 4).",
+ "B": 5000,
+ "h7a": {
+  "selected_ablations": [
+   "S8c_ablg"
+  ],
+  "selection_record": "results/study7/stageA_selection.json",
+  "S8c_ablg": {
+   "unseen_transition_diff_pp": 0.1281,
+   "p_raw": 0.0001999600079984003,
+   "one_sided": true,
+   "effect_gate_pp": 0.01,
+   "effect_pass": true,
+   "per_seed": {
+    "1042": 0.175,
+    "1043": 0.1026,
+    "1044": 0.1066
+   },
+   "n_chain_units": 2280,
+   "guardrails": {
+    "RR_3seed": 0.8656,
+    "RR_delta_vs_S0": 0.5122,
+    "responsiveness_collapse": false,
+    "NDCG5_3seed": 0.9939,
+    "NDCG5_drop_vs_S8c": -0.0002,
+    "ndcg_flag": false
+   },
+   "p_holm": 0.0001999600079984003,
+   "significant_holm_05": true,
+   "component_necessary": true
+  }
+ },
+ "h7p": {
+  "S7": {
+   "order_DVR_nonaug": 0.3024,
+   "order_DVR_perm": 0.0029,
+   "order_diff_pp": 0.2996,
+   "p_raw": 0.0001999600079984003,
+   "one_sided": true,
+   "effect_gate_pp": 0.02,
+   "effect_pass": true,
+   "n_chain_units": 3000,
+   "guardrail_test_main": {
+    "DVR_nonaug": 0.0,
+    "DVR_perm": 0.0001,
+    "delta_pp": 0.0001,
+    "in_distribution_cost_flag": false
+   },
+   "p_holm": 0.0003999200159968006,
+   "significant_holm_05": true,
+   "supported": true
+  },
+  "S8": {
+   "order_DVR_nonaug": 0.2717,
+   "order_DVR_perm": 0.0042,
+   "order_diff_pp": 0.2674,
+   "p_raw": 0.0001999600079984003,
+   "one_sided": true,
+   "effect_gate_pp": 0.02,
+   "effect_pass": true,
+   "n_chain_units": 3000,
+   "guardrail_test_main": {
+    "DVR_nonaug": 0.0,
+    "DVR_perm": 0.0,
+    "delta_pp": 0.0,
+    "in_distribution_cost_flag": false
+   },
+   "p_holm": 0.0003999200159968006,
+   "significant_holm_05": true,
+   "supported": true
+  },
+  "secondary_noninferiority_vs_S2perm": {
+   "descriptive_only": true,
+   "S2perm_order_DVR": 0.2207,
+   "S2_order_DVR": 0.2501,
+   "S7": {
+    "order_DVR_sysperm_minus_S2perm": -0.2178,
+    "order_DVR_sys_minus_S2_original": 0.0523
+   },
+   "S8": {
+    "order_DVR_sysperm_minus_S2perm": -0.2164,
+    "order_DVR_sys_minus_S2_original": 0.0216
+   }
+  }
+ }
+}

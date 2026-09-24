@@ -1,0 +1,13 @@
+{
+  "model": "S1_qwen",
+  "variant": "val",
+  "n_chains_evaluated": 357,
+  "n_chains_dropped_parse": 43,
+  "DVR": 0.0,
+  "SRR": 0.0,
+  "RR": 0.38375350140056025,
+  "rank_DVR": 0.036414565826330535,
+  "rank_SRR": 0.0028011204481792717,
+  "chain_fully_consistent_rate": 1.0,
+  "pairwise_flip_rate": 0.024369747899159664
+}

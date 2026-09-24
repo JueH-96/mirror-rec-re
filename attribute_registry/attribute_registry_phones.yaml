@@ -1,0 +1,32 @@
+# Phone-domain attribute registry (Study 4d second domain, study4_plan.md §2).
+# Same schema/semantics as attribute_registry.yaml; preregistered before any
+# 4d candidate-set generation. battery_life carries capacity in mAh (monotone
+# proxy for battery life; preference_direction unchanged from the laptop
+# domain, which is what makes the transfer semantically valid).
+# min_pair_gap set at ~4-8% of the valid span, consistent with the laptop
+# registry, and checked against the real catalog by the qualification gate
+# (>= 500 eligible pairs per attribute).
+price:
+  type: numeric
+  unit: usd
+  preference_direction: lower
+  min_pair_gap: 60
+  valid_range: [50, 1500]
+weight:
+  type: numeric
+  unit: kg
+  preference_direction: lower
+  min_pair_gap: 0.03
+  valid_range: [0.08, 0.45]
+battery_life:
+  type: numeric
+  unit: mah
+  preference_direction: higher
+  min_pair_gap: 500
+  valid_range: [800, 7000]
+storage:
+  type: numeric
+  unit: gb
+  preference_direction: higher
+  min_pair_gap: 8
+  valid_range: [4, 512]
