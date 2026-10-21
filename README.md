@@ -19,7 +19,6 @@ next to the archive) lists every file.
 | `experiments/` | Runner and chain scripts (idempotent/resumable) + per-run `config.yaml` and `train_log.jsonl` |
 | `results/` | Full machine-readable deliverables: `model_runs.jsonl`, raw parsed outputs, statistics JSON, aggregates |
 | `tests/` | Pipeline unit tests |
-| `paper/www2027/` + `paper/scripts/` | Submission LaTeX source and the asset generator used in §0 |
 
 ## 2. Full reproduction
 
@@ -118,8 +117,4 @@ request ids / checkpoints):
   lines; this package is not a git repository, so those lines fail silently
   and the chains continue — this is expected.
 
-## 5. Usage note
 
-This package is provided for peer review. The phone catalog's upstream terms
-(research/evaluation use only) propagate to anything rebuilt from it; do not
-redistribute the rebuilt catalog.
